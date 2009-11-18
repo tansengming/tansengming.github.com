@@ -1,3 +1,7 @@
+task :c do
+  exec 'git commit -a'
+end
+
 task :build do
   exec 'jekyll'
 end
