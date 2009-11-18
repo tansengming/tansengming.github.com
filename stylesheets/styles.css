@@ -1,0 +1,142 @@
+/* http://www.mad-designs.org */
+body,td,th {
+font-family:Helvetica, Arial, sans-serif;
+font-size:14px;
+line-height:22px;
+color:#333;
+}
+
+body {
+background-color:#FFF;
+margin:0;
+}
+
+img {
+border:none;
+}
+
+a {
+color:#09F;
+}
+
+a:hover {
+color:#F30;
+}
+
+/*a:visited {color:#0099FF; text-decoration:none;}*/
+.container {
+margin-left:auto;
+margin-right:auto;
+width:960px;
+}
+
+.header {
+min-height:60px;
+width:100%;
+margin:0;
+}
+
+h1 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:52px;
+line-height:64px;
+margin:0;
+}
+
+h2 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+line-height:30px;
+margin:0;
+}
+
+h3 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+line-height:24px;
+color:#09F;
+margin:0;
+}
+
+.topl {
+width:49%;
+float:left;
+}
+
+.topr {
+width:49%;
+float:right;
+}
+
+.topr ul {
+margin-top:18px;
+text-align:center;
+}
+
+.topr li {
+display:inline;
+}
+
+.topr li a {
+text-decoration:none;
+font-size:14px;
+font-weight:700;
+margin-right:20px;
+border-right:1px #333 solid;
+padding-right:20px;
+}
+
+.row2r {
+width:470px;
+float:right;
+border-top:10px #333 solid;
+}
+
+.row3l {
+width:470px;
+float:left;
+}
+
+.footer {
+width:100%;
+float:left;
+border-top:10px #333 solid;
+text-align:center;
+margin-top:20px;
+font-weight:700;
+}
+
+.row1l h2,.row2 h2 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+line-height:36px;
+margin:0;
+}
+
+.row1,.row2,.row3 {
+width:100%;
+margin-top:20px;
+}
+
+.row1l,.row2l {
+width:470px;
+float:left;
+border-top:10px #333 solid;
+}
+
+.row1r,.row3r {
+width:470px;
+float:right;
+}
+
+.row1rl,.row3rl,.row3ll {
+width:225px;
+float:left;
+border-top:10px solid #F30;
+}
+
+.row1rr,.row3rr,.row3lr {
+width:225px;
+float:right;
+border-top:10px solid #09F;
+}
