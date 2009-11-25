@@ -2,4 +2,23 @@
 layout: default
 ---
 <h2>Table of Contents</h2>
-Lorem ipsum dolor sit amet, <em>consectetuer</em> adipiscing elit. Maecenas sit amet metus. Nunc quam elit, posuere nec, auctor in, rhoncus quis, dui. <a href="#">more &raquo;</a>
+<div style='width:90%; padding-left:5%'>
+  <h4>
+    On Software
+  </h4>
+  {% for post in site.categories.software %}
+    <dl>
+      <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+      <dd>1</dd>
+    </dl> 
+  {% endfor %}
+  <h4>
+    On Travel
+  </h4>
+  {% for post in site.categories.stories %}
+    <dl>
+      <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+      <dd>1</dd>
+    </dl> 
+  {% endfor %}
+</div>
