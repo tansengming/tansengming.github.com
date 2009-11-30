@@ -1,3 +1,15 @@
+require 'json'
+require 'open-uri'
+
+task :get_pages do
+  puts pages.count
+end
+
+def pages
+  url = 'http://wiki.butnotsimpler.com/thinkspace/blog/published_json'
+  @pages ||= JSON.parse(open(url).read)
+end
+
 task :c do
   exec 'git commit -a'
 end

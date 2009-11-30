@@ -1,0 +1,13 @@
+---
+layout: post
+permalink: /about/index.html
+---
+**Professionally**
+SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build tools for hardware designers. At Intel he worked on processor and chipset design, focusing on hardware design validation and verification work for their line of PCI Express and Virtualization Technologies. At Altera he helped out with design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. To date, he's been working on building web applications to help with Freescale's yield reporting and analysis. He graduated from Iowa State University.
+
+**You can find me**
+at tansengming at gmail dot com or on Twitter, Posterous, Flickr and Facebook.
+
+**Sauce** 
+This site would not have existed if not for the existence of Jekyll, Hawk Host and Open Web Design.
+The source for this site can be found on github.
