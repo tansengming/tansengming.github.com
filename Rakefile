@@ -3,11 +3,34 @@ require 'open-uri'
 
 task :get_pages do
   puts pages.count
+  pages.each do |p|
+    File.open(filename_for(p), 'w') do |f|
+      puts "Writing to #{filename_for(p)}..."
+      f.puts head + p.content
+    end
+  end
+end
+
+def head
+<<EOL
+---
+layout: post
+---  
+EOL
+end
+
+def filename_for(page)
+  require 'ostruct'
+  '_down/' + time_to_str(page.time) + '-' + page.name.gsub(' ', '-') + '.markdown'
+end
+
+def time_to_str(time)
+  Time.parse(time).strftime("%Y-%m-%d")
 end
 
 def pages
   url = 'http://wiki.butnotsimpler.com/thinkspace/blog/published_json'
-  @pages ||= JSON.parse(open(url).read)
+  @pages ||= JSON.parse(open(url).read).map{|p| OpenStruct.new(p)}
 end
 
 task :c do

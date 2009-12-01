@@ -1,0 +1,14 @@
+---
+layout: post
+---  
+_I answered a few questions about my recent trip to Jogja and was astonished that it amounted to quite a few words. Here's a revised version of that exchange._
+
+We stayed at a hotel called Ibis. Expect a Holiday Inn type place, i.e. not 5 star but then again not that bad either. Its main redeeming feature is its proximity to Malioboro Street, the main commercial area and tourist trap for the city. If you are looking for a nicer place, I've been told (and cannot vouch for the fact) that Hotel Phoenix will fit the bill.
+
+There are two things that you must see while you are here. The first is the ash spewing volcano that can be seen from every corner of the city. However if your taxi insists on a name tell them that you want to go to Gunung Berapi, which translated means fire mountain or volcano. Indonesia is filled with volcanoes, so I was curious why the locals decided to name this particular one The Volcano. "Because it is the most active one in Indonesia and kills everyone around it every couple of years" our guide said. He also told us that it would take 4 hours to hike up to the top so please plan accordingly. If you are less curious (or suicidal) you can also spend your time instead on the observation towers located safely at the foothills. Personally I was disappointed at not having a chance to stare the mountain right down its mighty A-Hole. You might ask why a normally rational person would assume such a risk. Because I think it is cool. That is all.
+
+Please visit the 2 major temples in the area, namely Borobudor and Prambanan. I prefer Prambanan but you will want to see both to decide for yourself. Each will take at least two hours to savor. Prambanan will have amazing night performances during the weekends so plan for that. What you want to do is spend the afternoon in Borobudor and then head over to Prambanan. Spending a few hours there till it gets dark enough for the dances. What you don't want to do is get to Prambanan at 2pm, then find out about the performances at night and argue whether its worth idling 4 hours till it starts then promising yourself that you'll come tomorrow night instead. And then missing it the next day because you had a massage appointment and then whining to your girlfriend every time you reminiscence about the trip, ruining your relationship and your only chance of having that one love of your life. No, you don't want that.
+
+Crafts, especially things made out of batik are cheap there. I highly recommend a place called the Novi studio. It is a batik painting place that doubles as a batik school for local artists. They sell paintings with styles that range from traditional batik to all sorts of weird abstract art. If you are into massages I recommend a place called Griya Burga, which offers excellent Shiatsu massages and is as far as I know, not dodgy.
+
+category: travel, published
