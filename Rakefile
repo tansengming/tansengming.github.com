@@ -2,6 +2,8 @@ require '_bin/Page.rb'
 require 'rake/clean'
 CLEAN.add '_site'
 
+task :default => :test
+
 task :make_rss do
   require 'rss/maker'
 
