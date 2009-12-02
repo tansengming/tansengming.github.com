@@ -2,7 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>As Simple As Possible</title>
+  {% if page.title %}
+    <title>{{page.title}} - As Simple As Possible</title>
+  {% else %}
+    <title>As Simple As Possible</title>
+  {% endif %}
   <link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
 </head>
@@ -28,13 +32,15 @@
     <img src='/images/profile_small.jpg'>
   </div>
   <div>
-    <h2>SengMing Tan</h2>
-    believes in Ruby and usable designs.
-    He is rabid consumer of comic books and good pop music.
-    He currently works for Freescale Semiconductors and lives in Kuala Lumpur.
-    <a href='/about/'>
-      More &raquo;
-    </a>
+    <p>
+      <strong>SengMing Tan</strong>
+      believes in Ruby and usable designs.
+      He is rabid consumer of comic books and pop music.
+      He currently works for Freescale Semiconductors and lives in Kuala Lumpur.
+      <a href='/about/'>
+        More &raquo;
+      </a>
+    </p>
   </div>
 </div>
 </div>

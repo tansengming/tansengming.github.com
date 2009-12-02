@@ -3,11 +3,20 @@ layout: post
 permalink: /about/index.html
 ---
 **Professionally**
-SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build tools for hardware designers. At Intel he worked on processor and chipset design, focusing on hardware design validation and verification work for their line of PCI Express and Virtualization Technologies. At Altera he helped out with design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. To date, he's been working on building web applications to help with Freescale's yield reporting and analysis. He graduated from Iowa State University.
+SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build tools for hardware designers. At Intel he worked on processor and chipset design, focusing on hardware design validation and verification work for their line of PCI Express and Virtualization Technologies. At Altera he helped out with design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. Recently he's been working on web applications for yield reporting and analysis. He graduated from Iowa State University.
 
-**You can find me**
-at tansengming at gmail dot com or on Twitter, Posterous, Flickr and Facebook.
+**Contact me**
+at tansengming at gmail dot com or on [Twitter][twitter], [Posterous][post], [Flickr][f] and [Facebook][fb].
 
 **Sauce** 
-This site would not have existed if not for the existence of Jekyll, Hawk Host and Open Web Design.
-The source for this site can be found on github.
+This site would not have existed if not for the existence of [Jekyll][jekyll], [Hawk Host][h] and [Open Web Design][owd].
+The source for this site can be [found on Github][source].
+
+[twitter]: http://twitter.com/sengming
+[post]: http://sengming.posterous.com
+[f]: http://www.flickr.com/photos/tansengming/
+[fb]: http://www.facebook.com/sengming
+[jekyll]: http://wiki.github.com/mojombo/jekyll/
+[h]: http://hawkhost.com
+[owd]: http://www.openwebdesign.org
+[source]: http://#

@@ -51,7 +51,7 @@ task :build => :get_pages do
 end
 
 task :up => :get_pages  do
-  exec 'jekyll --auto --lsi --server'
+  exec 'jekyll --auto --server'
 end
 
 task :crawl do
