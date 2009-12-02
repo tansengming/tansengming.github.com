@@ -1,7 +1,7 @@
 ---
 layout: post
 ---  
-These are places that I will always go back to. I'll be the first to admit that the choices here are totally subjective and are also affected by the company I had.
+These are places that I will always go back to though I'll be the first to admit that the choices are totally subjective and are also affected by the company I had.
 
 **Sungai Wang** Zang Toi Cafe's Banana Chocolate cake, Meng Kee Char Siew, Changkat Tong Shin's Wan Tan mee, Soo Kee Prawn Noodles, Ngau Kee Beef Noodles, Wong Ah Wa Chicken Wings, El Cerdo, Palette Palete
 
@@ -43,4 +43,3 @@ These are places that I will always go back to. I'll be the first to admit that 
 
 **Everywhere else** Curry Pork Knuckles at Sentul, Chili Pan Mee near Medan Tuanku, Nathan's near old Klang road, LYJ Restaurant at Sungai Buloh, Kim Ma at Palace of the Golden Horses,  锦水亭 at Tropicana, Chef & Brew at Plaza Bukit Damansara
 
-category: food, kl, lists, published

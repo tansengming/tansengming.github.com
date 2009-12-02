@@ -11,4 +11,3 @@ One thing I've noticed is that I seem to get up at 5am no matter how early I get
 
 [aran]: http://twitter.com/sexaybeast
 
-category: vox, published

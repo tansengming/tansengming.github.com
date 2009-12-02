@@ -6,7 +6,7 @@ task :get_pages do
   pages.each do |p|
     File.open(filename_for(p), 'w') do |f|
       puts "Writing to #{filename_for(p)}..."
-      f.puts head + p.content
+      f.puts head + p.content.gsub(/^category:.*/, '')
     end
   end
 end

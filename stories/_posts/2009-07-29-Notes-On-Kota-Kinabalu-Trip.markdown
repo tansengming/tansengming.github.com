@@ -11,4 +11,3 @@ Bring along a headlamp, a walking stick, many pairs of socks, a warm waterproof 
 
 Besides the mountain there are plenty of other things to check out around Kota Kinabalu. There are hot springs and various parks around the foothill, not to mention some wonderful seafood around town. I had the best prawns in my life over at KK. If you plan to stay in town I highly recommend the Kinabalu Daya hotel. When I was there the rooms felt like they were recently remodeled even though the lobby looked like pretty old. An interesting thing to do would be to stay a night over at the islands off the coast. Manukan island for example is a tiny 20 minute boat ride away from town and has a cozy hotel.
 
-category: travel, published

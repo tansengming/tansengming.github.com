@@ -5,4 +5,3 @@ Imagine a widget factory where you get to leave after you're done making your wi
 
 Procrastination isn't a problem. Its the best solution we've come up with so far.
 
-category: published

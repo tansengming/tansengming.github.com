@@ -1,6 +1,9 @@
+ * split news and stories from wiki
  * about page
- * pull from wiki
+ * rss feed
 
 Later
  * link up categories?
  * add lsa
+ * pull from wiki
+ 

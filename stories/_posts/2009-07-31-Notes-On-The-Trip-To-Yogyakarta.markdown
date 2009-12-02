@@ -11,4 +11,3 @@ Please visit the 2 major temples in the area, namely Borobudor and Prambanan. I 
 
 Crafts, especially things made out of batik are cheap there. I highly recommend a place called the Novi studio. It is a batik painting place that doubles as a batik school for local artists. They sell paintings with styles that range from traditional batik to all sorts of weird abstract art. If you are into massages I recommend a place called Griya Burga, which offers excellent Shiatsu massages and is as far as I know, not dodgy.
 
-category: travel, published
