@@ -4,33 +4,11 @@ require 'open-uri'
 task :get_pages do
   puts pages.count
   pages.each do |p|
-    File.open(filename_for(p), 'w') do |f|
-      puts "Writing to #{filename_for(p)}..."
-      f.puts head + p.content.gsub(/^category:.*/, '')
+    File.open(p.filename, 'w') do |f|
+      puts "Writing to #{p.filename}..."
+      f.puts head + p.cleaned_content
     end
   end
-end
-
-def head
-<<EOL
----
-layout: post
----  
-EOL
-end
-
-def filename_for(page)
-  require 'ostruct'
-  '_down/' + time_to_str(page.time) + '-' + page.name.gsub(' ', '-') + '.markdown'
-end
-
-def time_to_str(time)
-  Time.parse(time).strftime("%Y-%m-%d")
-end
-
-def pages
-  url = 'http://wiki.butnotsimpler.com/thinkspace/blog/published_json'
-  @pages ||= JSON.parse(open(url).read).map{|p| OpenStruct.new(p)}
 end
 
 task :c do
@@ -60,3 +38,64 @@ task :crawl do
   end
 end
 task :test => :crawl
+
+def head
+<<EOL
+---
+layout: post
+---  
+EOL
+end
+
+# helper functions
+def pages
+  url = 'http://wiki.butnotsimpler.com/thinkspace/blog/published_json'
+  @pages ||= JSON.parse(open(url).read).map{|p| Page.new(p)}
+end
+
+
+class Page
+  def initialize(hash)
+    @struct = OpenStruct.new(hash)
+  end
+  
+  def cleaned_content
+    content.gsub(/^category:.*/, '')
+  end
+
+  def software_page?
+    content[/category: .*(code|ruby|software)/]  
+  end
+  
+  def story_page?
+    !software_page?
+  end
+  
+  def content
+    @struct.content
+  end
+  
+  def name
+    @struct.name
+  end
+  
+  def time
+    Time.parse(@struct.time).strftime("%Y-%m-%d")
+  end
+  
+  def filename
+    page_dir + time + '-' +  dashed_name + '.markdown'
+  end
+  
+  def page_dir
+    if story_page?
+      'stories/_posts/'
+    elsif software_page?
+      'software/_posts/'
+    end    
+  end
+  
+  def dashed_name
+    name.gsub(' ', '-')
+  end
+end
