@@ -1,11 +1,11 @@
 ---
 layout: post
 ---  
-These are places that I will always go back to though I'll be the first to admit that the choices are totally subjective and are also affected by the company I had.
+These are places that I love and will always go back to. I fully acknowledge that my choices can be wholly skewed by the company I had when I first ate there.
 
 **Sungai Wang** Zang Toi Cafe's Banana Chocolate cake, Meng Kee Char Siew, Changkat Tong Shin's Wan Tan mee, Soo Kee Prawn Noodles, Ngau Kee Beef Noodles, Wong Ah Wa Chicken Wings, El Cerdo, Palette Palete
 
-**Jalan Kuchai Lama** Cau Cau Lamb Cutlets, Good Fish Head, Dim Sum, Steam fish head, Win Soon fish head noodles, Yu Ai Curry Mee, Jojo Pan Mee
+**Jalan Kuchai Lama** Cau Cau Lamb Cutlets, Good Fish Head, Kam Hin Dim Sum, Steam fish head, Win Soon fish head noodles, Yu Ai Curry Mee, Jojo Pan Mee
 
 **Gardens** Spread Buffet, Fong Lye, Canton-I, Pasta Zanmai, Sushi Zanmai, Yogitree's  Mushroom Bread, Purple Cane, Alexis, Delicious, Dome
 
@@ -41,5 +41,5 @@ These are places that I will always go back to though I'll be the first to admit
 
 **TTDI** Rasta Burger, Mama's Kitchen
 
-**Everywhere else** Curry Pork Knuckles at Sentul, Chili Pan Mee near Medan Tuanku, Nathan's near old Klang road, LYJ Restaurant at Sungai Buloh, Kim Ma at Palace of the Golden Horses,  锦水亭 at Tropicana, Chef & Brew at Plaza Bukit Damansara
+**Everywhere else** Curry Pork Knuckles at Sentul, Chili Pan Mee near Medan Tuanku, Nathan's near old Klang road, LYJ Restaurant at Sungai Buloh, Kim Ma at Palace of the Golden Horses,  锦水亭 at Tropicana, Chef & Brew at Plaza Bukit Damansara, Jaring at Sunway, Pink Sage at Capsquare.
 
