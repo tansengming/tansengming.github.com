@@ -1,0 +1,67 @@
+---
+layout: post
+permalink: /resume/index.html
+---
+<style>
+h3 { border-bottom: solid grey 1px; }
+div#contact { white-space: pre;}
+h3, h2, h1 {color: black; font-family: verdana}
+</style>
+
+### <nowiki>SengMing Tan</nowiki>
+
+<div id='contact'>B-5-2, Jalan Desa Utama,
+Tiara Faber Condominium, Taman Desa
+Kuala Lumpur 58100
+Malaysia
+(+60) 12-423-8393
+tansengming@gmail.com
+
+</div>
+
+### Summary
+
+I am a software developer who has built web applications, yield analysis systems and hardware validation tools.
+
+### Experience
+
+**Freescale Semiconductor | NPI Research and Development** 2008..2009
+
+Freescale Semiconductor is the leading provider of automotive micro-controllers. I was hired to improve yield analysis for new products.
+
+* Build web app to report and analyze a million micro-controllers a month. Includes charting, mapping and detecting failure trends between units.
+* Wrote software to analyze lot equipment history and detect equipment failures using statistical tests.
+* Setup infrastructure and processes (testing, source control, issue tracking, backups) in the department to support multiple ongoing software projects.
+* Used: Rails, Ruby, Javascript, HTML, CSS, Git, Apache.
+
+**Finex Solutions | Web Application Developer** 2007
+
+Finex Solutions is one of the leading providers of financial technical analysis tools in Singapore. I was hired to build web applications to support the company's growth.
+
+* Built web applications to handle mass mailing, support mail, financial accounts, business intelligence and events management.
+* Built small framework to maintain [company web site](http://chartnexus.com/) including online payments, user accounts and events planning.
+* Set up web servers, databases, source control and VPN to serve in house applications.
+* Used: Rails, Ruby, PHP, Javascript, HTML, CSS, SVN, Trac, Apache, ligthttp, mongrel, OpenVPN.
+
+**Intel | Component Design Engineer** 2004..2006
+
+Intel is the largest producer of Microprocessors in the world. I was chip designer for PCI Express and Virtualization technologies.
+
+
+* Ran efforts to deliver bug free RTL on PCI Express and Virtualization Technology designs
+* Wrote and designed random testing methodologies
+* Built and maintained testing framework (test bench, random test generators, simulators, checkers, verifiers, compilers etc) that ran on Modelsim and Verisity
+* Designed and provided movies, documentation and web sites to for education of new hires
+* Used: Modelsim, Verisity, E, Ruby, Perl and Verilog
+
+**Virage Logic | Test Engineer** 2003
+
+Virage Logic is the leading designer of embedded memory IP. I was hired to determine silicon quality of various fabs using custom memory solutions.
+
+* Took over manual testing and built automated data analysis system to replace it
+* The process included setting up pins on silicon for data acquisition, data analysis and then having charts drawn up automatically on Excel.
+* Software was built using a mix  of Visual Basic for Applications, Perl and Vee Pro.
+
+### Skills
+
+Modelsim, Verisity, E, Verilog, Ruby, PHP, Javascript, HTML, CSS, Perl, E, VBA, SQL, C++, C, Java, Apache, Lighttpd, Mongrel, Rails, Camping, Code Igniter, <nowiki>MySQL</nowiki>, Mac OS X, Unix, Windows, Fortran, Matlab, VBA.
