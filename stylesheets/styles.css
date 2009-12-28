@@ -53,21 +53,21 @@ margin:0;
 }
 
 h1 {
-font-family:Georgia, "Times New Roman", Times, serif;
+/*font-family:Georgia, "Times New Roman", Times, serif;*/
 font-size:52px;
 line-height:64px;
 margin:0;
 }
 
 h2 {
-font-family:Georgia, "Times New Roman", Times, serif;
+/*font-family:Georgia, "Times New Roman", Times, serif;*/
 font-size:20px;
 line-height:30px;
 margin:0;
 }
 
 h3 {
-font-family:Georgia, "Times New Roman", Times, serif;
+/*font-family:Georgia, "Times New Roman", Times, serif;*/
 font-size:16px;
 line-height:24px;
 color:#09F;
@@ -93,7 +93,7 @@ font-size: small;
 }
 
 .row1l h2 {
-font-family:Georgia, "Times New Roman", Times, serif;
+/*font-family:Georgia, "Times New Roman", Times, serif;*/
 font-size:30px;
 line-height:36px;
 margin:0;

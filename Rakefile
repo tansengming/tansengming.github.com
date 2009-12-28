@@ -6,6 +6,7 @@ task :default => :test
 
 task :deploy => :build do
   sh 'rsync -avzr _site/ butnotsi@butnotsimpler.com:www/hello/'
+  sh 'git push github master'
 end
 
 task :get_pages do
