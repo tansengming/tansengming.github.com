@@ -5,19 +5,7 @@ permalink: /resume/index.html
 <style>
 h3 { border-bottom: solid grey 1px; }
 div#contact { white-space: pre;}
-h3, h2, h1 {color: black; font-family: verdana}
 </style>
-
-### <nowiki>SengMing Tan</nowiki>
-
-<div id='contact'>B-5-2, Jalan Desa Utama,
-Tiara Faber Condominium, Taman Desa
-Kuala Lumpur 58100
-Malaysia
-(+60) 12-423-8393
-tansengming@gmail.com
-
-</div>
 
 ### Summary
 
@@ -39,7 +27,7 @@ Freescale Semiconductor is the leading provider of automotive micro-controllers.
 Finex Solutions is one of the leading providers of financial technical analysis tools in Singapore. I was hired to build web applications to support the company's growth.
 
 * Built web applications to handle mass mailing, support mail, financial accounts, business intelligence and events management.
-* Built small framework to maintain [company web site](http://chartnexus.com/) including online payments, user accounts and events planning.
+* Built small framework to maintain company web site including online payments, user accounts and events planning.
 * Set up web servers, databases, source control and VPN to serve in house applications.
 * Used: Rails, Ruby, PHP, Javascript, HTML, CSS, SVN, Trac, Apache, ligthttp, mongrel, OpenVPN.
 
