@@ -27,7 +27,7 @@ task :build => :get_pages do
   sh 'jekyll'
 end
 
-task :up => :get_pages  do
+task :up do
   exec 'jekyll --auto --server'
 end
 
