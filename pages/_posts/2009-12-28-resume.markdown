@@ -1,23 +1,11 @@
 ---
-layout: post
+layout: page
 permalink: /resume/index.html
 ---
 <style>
 h3 { border-bottom: solid grey 1px; }
 div#contact { white-space: pre;}
-h3, h2, h1 {color: black; font-family: verdana}
 </style>
-
-### <nowiki>SengMing Tan</nowiki>
-
-<div id='contact'>B-5-2, Jalan Desa Utama,
-Tiara Faber Condominium, Taman Desa
-Kuala Lumpur 58100
-Malaysia
-(+60) 12-423-8393
-tansengming@gmail.com
-
-</div>
 
 ### Summary
 

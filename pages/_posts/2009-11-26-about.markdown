@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: page
 permalink: /about/index.html
 ---
+Placeholder for the wonderful bio that I will write one day.
+
 **Professionally**
 SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build tools for hardware designers. At Intel he worked on processor and chipset design, focusing on hardware design validation and verification work for their line of PCI Express and Virtualization Technologies. At Altera he helped out with design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. Recently he's been working on web applications for yield reporting and analysis. He graduated from Iowa State University.
 
@@ -19,4 +21,4 @@ The source for this site can be [found on Github][source].
 [jekyll]: http://wiki.github.com/mojombo/jekyll/
 [h]: http://hawkhost.com
 [owd]: http://www.openwebdesign.org
-[source]: http://#
+[source]: http://github.com/tansengming/As-Simple-As-Possible
