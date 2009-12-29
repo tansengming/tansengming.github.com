@@ -6,6 +6,7 @@ task :default => :test
 
 task :deploy => :build do
   sh 'rsync -avzr _site/ butnotsi@butnotsimpler.com:www/hello/'
+  sh 'ssh butnotsi@butnotsimpler.com "chmod a+r /home/butnotsi/www/hello/images/profile_small.jpg"'
   sh 'git push github master'
 end
 
