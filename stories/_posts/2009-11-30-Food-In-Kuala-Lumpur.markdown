@@ -43,3 +43,5 @@ These are places that I love and will always go back to. I fully acknowledge tha
 
 **Everywhere else** Curry Pork Knuckles at Sentul, Chili Pan Mee near Medan Tuanku, Nathan's near old Klang road, LYJ Restaurant at Sungai Buloh, Kim Ma at Palace of the Golden Horses,  锦水亭 at Tropicana, Chef & Brew at Plaza Bukit Damansara, Jaring at Sunway, Pink Sage at Capsquare.
 
+Extra super tanker. Lucky loke. 
+
