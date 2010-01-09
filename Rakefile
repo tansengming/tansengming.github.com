@@ -24,7 +24,7 @@ task :c do
   exec 'git commit -a'
 end
 
-task :build => :get_pages do
+task :build do
   sh 'jekyll'
 end
 
