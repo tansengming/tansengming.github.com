@@ -1,3 +1,7 @@
+.fn {
+	font-weight: bold;
+}
+
 #disqus_thread {
   text-align: left;
 }
