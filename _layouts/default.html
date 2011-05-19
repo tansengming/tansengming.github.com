@@ -18,10 +18,17 @@
     <title>As Simple As Possible</title>
   {% endif %}
   <link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" />
+  <link rel="stylesheet" href="/stylesheets/jquery.lightbox-0.5.css" type="text/css" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    !window.jQuery && document.write('<script src="/javascripts/jquery-1.5.1.min.js"><\/script>')
+  </script>
+  <script type="text/javascript" src="/javascripts/jquery.lightbox-0.5.min.js" />
+
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="javascripts/modernizr-1.6.min.js"></script>
+  <script src="/javascripts/modernizr-1.6.min.js"></script>
 </head>
 
 <body><div class="container">
@@ -42,15 +49,15 @@
 <div class="row3l">
 <div id='sengming-vcard-short' class="row3ll vcard">
   <div style='float: left; padding: 0 20px 0 5px;'>
-    <img class='photo' src='http://hello.butnotsimpler.com/images/profile_small.jpg' />
+    <img class='profile' src='/images/profile_small.jpg' />
   </div>
   <div>
     <p>
       <span class='fn'>SengMing Tan</span>
       believes in Ruby and usable designs.
       He is rabid consumer of comic books and pop music.
-      He builds software for <span id='knorex-vcard' class='org vcard'><a class='url fn org' href='http://knorex.com'>Knorex</a></span> while he lives and plays in <span class='adr'><span class='country-name'>Singapore</span></span>.
-      <a class='url' href='http://hello.butnotsimpler.com/about/'>
+      He builds Rails applications while he lives and plays in <span class='adr'><span class='country-name'>Sydney</span>, <span class='country-name'>Australia</span></span>.
+      <a class='url' href='/about/'>
         More &raquo;
       </a>
     </p>
@@ -59,11 +66,10 @@
 </div>
 </div>
 <br clear="all" />
-<div class="footer">&copy; SengMing Tan | Design by <a href="http://www.mad-designs.org">mad<em>designs</em></a><em></em>
+<div class="footer">
+  &copy; 2011 SengMing Tan | Design by <a href="http://www.mad-designs.org">mad<em>designs</em></a><em></em>
 </div>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script src="/javascripts/scripts.js"></script>
-
   <script type="text/javascript">
     //<![CDATA[
     (function() {
