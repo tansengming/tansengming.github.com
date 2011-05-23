@@ -76,7 +76,7 @@ While at Knorex, we built a stock watcher, article discovery tool and other data
 <div class='clear'>
 </div>
 
-While at Freescale Semiconductors, I built an application to report and analyze millions of micro-controller test results every month. It also analyzed lot equipment history to detect equipment failures using statistical tests. Main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built on Rails on a MySQL backend. Relying on R for statistical work.
+While at Freescale Semiconductors, I built an application to report and analyze millions of micro-controller test results per month. It also analyzed lot equipment history to detect equipment failures using statistical tests. The main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built on Rails on a MySQL backend. Relied on R for statistical work.
 
 <script type="text/javascript" charset="utf-8"> 
 	$(document).ready(function() {
