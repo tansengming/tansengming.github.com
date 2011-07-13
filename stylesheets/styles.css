@@ -5,17 +5,22 @@
 .photos {
   
 }
+  
   .photo a, .photo a:hover {
     text-decoration: none;
     background-color: #fff;
   }
 
   .photo {
-    border: 1px solid #333;
+    border: 1px solid #AAA;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     width: 200px;
     float: left;
+  }
+
+  .first_photo {
+    margin-left: 0;
   }
 
 .fn {

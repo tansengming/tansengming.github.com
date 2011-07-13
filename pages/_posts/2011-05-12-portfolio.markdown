@@ -4,12 +4,12 @@ permalink: /portfolio/index.html
 ---
 <h3>MakanPages (2011)</h3>
 <div class='photos'>
-  <div class="photo"> 
+  <div class="first_photo photo">
   	<a href="/images/makanpages-index.png" title="Landing page for MakanPages.com">
   		<img src="/images/makanpages-index-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
   	</a> 
   </div> 
-  <div class="photo"> 
+  <div class="photo">
     <a href="/images/makanpages-food.png" title="Food Index for MakanPages.com">
       <img src="/images/makanpages-food-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
     </a> 
@@ -30,7 +30,7 @@ The project involved analyzing hundreds of food blogs to figure out where people
 
 <h3>Semantic Widgets for The Star Online (2010)</h3>
 <div class='photos'>
-  <div class="photo"> 
+  <div class="first_photo photo"> 
   	<a href="/images/bizstar-main.png" title="The Star Business Main Page">
   		<img src="/images/bizstar-main-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
   	</a> 
@@ -57,7 +57,7 @@ While at Knorex, we built a stock watcher, article discovery tool and other data
 <h3>Manufacturing Yield and Machine Analysis (2009)</h3>
 
 <div class='photos'>
-  <div class="photo"> 
+  <div class="first_photo photo"> 
   	<a href="/images/versailles-summary.png" title="Yield summary for different products">
   		<img src="/images/versailles-summary-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
   	</a> 
@@ -76,7 +76,7 @@ While at Knorex, we built a stock watcher, article discovery tool and other data
 <div class='clear'>
 </div>
 
-While at Freescale Semiconductors, I built an application to report and analyze millions of micro-controller test results per month. It also analyzed lot equipment history to detect equipment failures using statistical tests. The main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built on Rails on a MySQL backend. Relied on R for statistical work.
+At Freescale Semiconductors I build an application to report and analyze millions of micro-controller test results per month. It also analyzed lot equipment history to detect equipment failures using statistical tests. The main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built on Rails on a MySQL backend. Relied on R for statistical work.
 
 <script type="text/javascript" charset="utf-8"> 
 	$(document).ready(function() {
