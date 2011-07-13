@@ -3,24 +3,33 @@ layout: page
 permalink: /resume/index.html
 ---
 <style>
-h3 { border-bottom: solid grey 1px; }
+h3 { border-bottom: solid gray 1px; }
 div#contact { white-space: pre;}
 </style>
 
 ### Summary
 
-I am a software developer who has built web applications, yield analysis systems and hardware validation tools.
+I am a software developer who builds data-driven applications, including applications that deal with semantic technologies, yield analysis and hardware validation.
 
 ### Experience
 
+**Knorex | Systems Engineer** 2010..2011
+
+Knorex Pte. Ltd. is a Semantic Technologies startup. I was hired to work on all software related endeavors.
+
+- Team lead for group that built semantic widgets for Malaysia's [largest online newspaper](http://thestar.com.my). The widgets are used millions of times every month.
+- Lead group that built the semantic tagging, crawling and instantiation modules for the company's core product, Knorex Lumina. This involved integration between the UIMA NLP framework, crawlers, text parsers, keyword extractors and Ontotext's semantic triplestores.
+- Used: Java, supplemented with some Groovy and Ruby.
+
 **Freescale Semiconductor | NPI Research and Development** 2008..2009
 
-Freescale Semiconductor is the leading provider of automotive micro-controllers. I was hired to improve yield analysis for new products.
+Freescale Semiconductor is the world's leading provider of automotive micro-controllers.
+I was hired to improve manufacturing inefficiencies by automation, visualization, control and statistical yield analysis.
 
-* Build web app to report and analyze a million micro-controllers a month. Includes charting, mapping and detecting failure trends between units.
-* Wrote software to analyze lot equipment history and detect equipment failures using statistical tests.
-* Setup infrastructure and processes (testing, source control, issue tracking, backups) in the department to support multiple ongoing software projects.
-* Used: Rails, Ruby, Javascript, HTML, CSS, Git, Apache.
+* Build web app to report and analyze a millions of results from micro-controllers tests every month. Includes charting, mapping and detecting failure trends between units.
+* Integrate software to analyze lot equipment history and detect equipment failures using statistical tests.
+* Setup infrastructure and processes (testing, source control, issue tracking, backups) to support multiple ongoing software projects.
+* Used: Rails, Ruby, Javascript, Apache.
 
 **Finex Solutions | Web Application Developer** 2007
 
@@ -29,12 +38,11 @@ Finex Solutions is one of the leading providers of financial technical analysis 
 * Built web applications to handle mass mailing, support mail, financial accounts, business intelligence and events management.
 * Built small framework to maintain company web site including online payments, user accounts and events planning.
 * Set up web servers, databases, source control and VPN to serve in house applications.
-* Used: Rails, Ruby, PHP, Javascript, HTML, CSS, SVN, Trac, Apache, ligthttp, mongrel, OpenVPN.
+* Used: Rails, Ruby, PHP, Javascript, Apache
 
 **Intel | Component Design Engineer** 2004..2006
 
-Intel is the largest producer of Microprocessors in the world. I was chip designer for PCI Express and Virtualization technologies.
-
+Intel is the world’s largest producer of Microprocessors. I was a chip designer for PCI Express and Virtualization technologies.
 
 * Ran efforts to deliver bug free RTL on PCI Express and Virtualization Technology designs
 * Wrote and designed random testing methodologies
@@ -42,14 +50,6 @@ Intel is the largest producer of Microprocessors in the world. I was chip design
 * Designed and provided movies, documentation and web sites to for education of new hires
 * Used: Modelsim, Verisity, E, Ruby, Perl and Verilog
 
-**Virage Logic | Test Engineer** 2003
-
-Virage Logic is the leading designer of embedded memory IP. I was hired to determine silicon quality of various fabs using custom memory solutions.
-
-* Took over manual testing and built automated data analysis system to replace it
-* The process included setting up pins on silicon for data acquisition, data analysis and then having charts drawn up automatically on Excel.
-* Software was built using a mix  of Visual Basic for Applications, Perl and Vee Pro.
-
 ### Skills
 
-Modelsim, Verisity, E, Verilog, Ruby, PHP, Javascript, HTML, CSS, Perl, E, VBA, SQL, C++, C, Java, Apache, Lighttpd, Mongrel, Rails, Camping, Code Igniter, <nowiki>MySQL</nowiki>, Mac OS X, Unix, Windows, Fortran, Matlab, VBA.
+Rails, jQuery, MongoDB, <nowiki>MySQL</nowiki>
