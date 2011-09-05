@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/index.html
 ---
-*Placeholder for the wonderful bio that I will write here one day*
+*Placeholder for the wonderful bio that I will write here some day*
 
 **Professionally**
 SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build web applications and tools for hardware designers. At Intel he worked on processor and chipset design, focusing on design validation for PCI Express and Virtualization Technologies. At Altera he did design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. Recently he's been working on web applications for yield reporting and analysis. He graduated from Iowa State University.
@@ -11,7 +11,18 @@ He has a [r&eacute;sum&eacute;][resume], [portfolio][portfolio] and a [Linkedin 
 **Contact me**
 on tansengming \[at\] gmail dot com or on [Twitter][twitter], [Posterous][post], [Flickr][f] and [Facebook][fb].
 
-This site would not have existed if not for [Jekyll][jekyll], [Hawk Host][h] and [Open Web Design][owd]. You can find the source of this site on [Github][source].
+<h2 id='faq'>Frequently Asked Questions</h2>
+
+**What do you do and how long have you been doing it?**  
+I am a full stack Rails developer, meaning that I've optimized the servers (Apache, Glassfish, Varnish), tuned databases (MySQL) and written application (Ruby, Java) & front end (jQuery, HTML, CSS) code. That said, I'd rather work mostly on application code. I shipped my first Rails application on 2007 (a tiny little app to manage newsletters).
+
+**What projects have you worked on?**  
+I've worked in manufacturing, building a defect reporting & analysis tool. In finance, building stock readers for the bursa feed and tools to manage stock information. I've also worked on Semantic Technologies and data integration while at [Knorex][knorex]. You should check out my [portfolio][portfolio] to get a better idea of what I've worked on.
+
+**What languages have you worked with?**  
+I work mostly with Ruby but have been known to ship products in jQuery, Java and PHP.
+
+_This site would not have existed if not for [Jekyll][jekyll], [Hawk Host][h] and [Open Web Design][owd]. You can find the source of this site on [Github][source]._
 
 [twitter]: http://twitter.com/sengming
 [post]: http://sengming.posterous.com
@@ -24,3 +35,4 @@ This site would not have existed if not for [Jekyll][jekyll], [Hawk Host][h] and
 [resume]: /resume/
 [linkedin]: http://my.linkedin.com/in/tansengming
 [portfolio]: /portfolio/
+[knorex]: http://knorex.com
