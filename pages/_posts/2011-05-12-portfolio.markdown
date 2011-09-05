@@ -23,7 +23,7 @@ permalink: /portfolio/index.html
 <div class='clear'>
 </div>
 
-The project involved analyzing hundreds of food blogs to figure out where people liked to eat. The main challenge was building the text mining engine from scratch because existing libraries didn't work out. Classification was also harder than expected. The final site is generated as a static site with a Rails and MongoDB backend.
+The project involved analyzing hundreds of food blogs to figure out where people liked to eat. The text extraction and sentiment analysis libraries were built from scratch. It was constructed with Rails and MongoDB on AWS.
 [Link &raquo;](http://makanpages.com/)
 
 <br />
@@ -49,7 +49,7 @@ The project involved analyzing hundreds of food blogs to figure out where people
 <div class='clear'>
 </div>
 
-While at Knorex, we built a stock watcher, article discovery tool and other data based widgets for Malaysia's largest English newspaper. The main challenge was to support the millions of hits we expected to get every month. We leaned heavily on Varnish and HTTP load testing to make sure things worked on that scale. Built with jQuery on a REST backend made out of Glassfish and MySQL.
+While at Knorex, we built a stock watcher, article discovery tool and other data based widgets for Malaysia's largest English newspaper. We supported millions of hits everyday by leaning heavily on Varnish and HTTP load testing. Built with jQuery on a REST backend made from Glassfish and MySQL.
 [Link &raquo;](http://biz.thestar.com.my/)
 
 <br />
@@ -76,7 +76,7 @@ While at Knorex, we built a stock watcher, article discovery tool and other data
 <div class='clear'>
 </div>
 
-At Freescale Semiconductors I build an application to report and analyze millions of micro-controller test results per month. It also analyzed lot equipment history to detect equipment failures using statistical tests. The main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built on Rails on a MySQL backend. Relied on R for statistical work.
+For Freescale Semiconductors I build an application to report and analyze millions of micro-controller test results every month. It also analyzed lot equipment history to detect equipment failures using statistical tests. The main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built with Rails and MySQL with R for statistical work.
 
 <script type="text/javascript" charset="utf-8"> 
 	$(document).ready(function() {
