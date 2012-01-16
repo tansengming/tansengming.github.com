@@ -13,16 +13,16 @@ on tansengming \[at\] gmail dot com or on [Twitter][twitter], [Posterous][post],
 
 <h2 id='faq'>Frequently Asked Questions</h2>
 
-**What do you do and how long have you been doing it?**  
+**What do you do and how long have you been doing it?**
 I am a full stack Rails developer, meaning that I've optimized the servers (Apache, Glassfish, Varnish), tuned databases (MySQL) and written application (Ruby, Java) & front end (jQuery, HTML, CSS) code. That said, I'd rather work mostly on application code. I shipped my first Rails application on 2007 (a tiny little app to manage newsletters).
 
-**What projects have you worked on?**  
+**What projects have you worked on?**
 I've worked in manufacturing, building a defect reporting & analysis tool. In finance, building stock readers for the bursa feed and tools to manage stock information. I've also worked on Semantic Technologies and data integration while at [Knorex][knorex]. You should check out my [portfolio][portfolio] to get a better idea of what I've worked on.
 
-**What languages have you worked with?**  
+**What languages have you worked with?**
 I work mostly with Ruby but have been known to ship products in jQuery, Java and PHP.
 
-_This site would not have existed if not for [Jekyll][jekyll], [Hawk Host][h] and [Open Web Design][owd]. You can find the source of this site on [Github][source]._
+_This site would not have existed if not for [Jekyll][jekyll] and [Open Web Design][owd]. You can find the source of this site on [Github][source]._
 
 [twitter]: http://twitter.com/sengming
 [post]: http://sengming.posterous.com
@@ -31,7 +31,7 @@ _This site would not have existed if not for [Jekyll][jekyll], [Hawk Host][h] an
 [jekyll]: http://wiki.github.com/mojombo/jekyll/
 [h]: http://hawkhost.com
 [owd]: http://www.openwebdesign.org
-[source]: http://github.com/tansengming/As-Simple-As-Possible
+[source]: http://github.com/tansengming/tansengming.github.com
 [resume]: /resume/
 [linkedin]: http://my.linkedin.com/in/tansengming
 [portfolio]: /portfolio/
