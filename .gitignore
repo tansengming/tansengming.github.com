@@ -1,3 +1,4 @@
+.rbenv-version
 *.sublime-*
 .DS_Store
 _site/*
