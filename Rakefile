@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'pathname'
+autoload :Pathname, 'pathname'
+autoload :Anemone, 'anemone'
 
 Root = Pathname.new(File.dirname(File.expand_path(__FILE__)))
-require Root + '_lib/Page.rb'
 require 'rake/clean'
 CLEAN.add Root + '_site'
 
@@ -17,12 +17,12 @@ task :up do
   exec 'jekyll --auto --server'
 end
 
+desc 'crawls the site to catch broken links'
 task :crawl do
-  require 'anemone'
-  root = 'http://localhost:4000'
+  host = 'http://localhost:4000'
   options = {:discard_page_bodies => true, :verbose => true}
 
-  Anemone.crawl(root, options) do |anemone|
+  Anemone.crawl(host, options) do |anemone|
     anemone.on_every_page do |page|
       raise '404 Not Found!:' + page.url.path.to_s if page.not_found?
     end
