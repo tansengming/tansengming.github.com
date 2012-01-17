@@ -2,16 +2,96 @@
 layout: page
 permalink: /about/index.html
 ---
-*Placeholder for the wonderful bio that I will write here some day*
-
 **Professionally**
 SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build web applications and tools for hardware designers. At Intel he worked on processor and chipset design, focusing on design validation for PCI Express and Virtualization Technologies. At Altera he did design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. Recently he's been working on web applications for yield reporting and analysis. He graduated from Iowa State University.
-He has a [r&eacute;sum&eacute;][resume], [portfolio][portfolio] and a [Linkedin account][linkedin].
+He has a [r&eacute;sum&eacute;][resume] and a [Linkedin account][linkedin].
 
 **Contact me**
-on tansengming \[at\] gmail dot com or on [Twitter][twitter], [Posterous][post], [Flickr][f] and [Facebook][fb].
+on tansengming \[at\] gmail dot com or [Twitter][twitter].
 
-<h2 id='faq'>Frequently Asked Questions</h2>
+---
+
+## Portfolio
+
+<h3>MakanPages (2011)</h3>
+<div class='photos lightbox'>
+  <div class="first_photo photo">
+    <a href="/images/makanpages-index.png" title="Landing page for MakanPages.com">
+      <img src="/images/makanpages-index-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
+    </a>
+  </div>
+  <div class="photo">
+    <a href="/images/makanpages-food.png" title="Food Index for MakanPages.com">
+      <img src="/images/makanpages-food-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+  <div class="photo">
+    <a href="/images/makanpages-place.png" title="Eating Place Details on MakanPages.com">
+      <img src="/images/makanpages-place-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+</div>
+<div class='clear'>
+</div>
+
+The project involved analyzing hundreds of food blogs to figure out where people liked to eat. The text extraction and sentiment analysis libraries were built from scratch. It was constructed with Rails and MongoDB on AWS.
+[Link &raquo;](http://makanpages.com/)
+
+<br />
+
+<h3>Semantic Widgets for The Star Online (2010)</h3>
+<div class='photos lightbox'>
+  <div class="first_photo photo">
+    <a href="/images/bizstar-main.png" title="The Star Business Main Page">
+      <img src="/images/bizstar-main-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+  <div class="photo">
+    <a href="/images/bizstar-article.png" title="The Star Business Article page">
+      <img src="/images/bizstar-article-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+  <div class="photo">
+    <a href="/images/bizstar-marketwatch.png" title="The Star Business Marketwatch page">
+      <img src="/images/bizstar-marketwatch-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
+    </a>
+  </div>
+</div>
+<div class='clear'>
+</div>
+
+While at Knorex, we built a stock watcher, article discovery tool and other data based widgets for Malaysia's largest English newspaper. We supported millions of hits everyday by leaning heavily on Varnish and HTTP load testing. Built with jQuery on a REST backend made from Glassfish and MySQL.
+[Link &raquo;](http://biz.thestar.com.my/)
+
+<br />
+
+<h3>Manufacturing Yield and Machine Analysis (2009)</h3>
+
+<div class='photos lightbox'>
+  <div class="first_photo photo">
+    <a href="/images/versailles-summary.png" title="Yield summary for different products">
+      <img src="/images/versailles-summary-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+  <div class="photo">
+    <a href="/images/versailles-overview.png" title="Yield Overview sorted by time and lots">
+      <img src="/images/versailles-overview-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+  <div class="photo">
+    <a href="/images/versailles-wafer.png" title="Yield summary lumped as wafers">
+      <img src="/images/versailles-wafer-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
+    </a>
+  </div>
+</div>
+<div class='clear'>
+</div>
+
+For Freescale Semiconductors I build an application to report and analyze millions of micro-controller test results every month. It also analyzed lot equipment history to detect equipment failures using statistical tests. The main challenge was working with the myriad of data sources and optimizing the analysis to handle the data load. Built with Rails and MySQL with R for statistical work.
+
+---
+
+## Frequently Asked Questions
 
 **What do you do and how long have you been doing it?**
 I am a full stack Rails developer, meaning that I've optimized the servers (Apache, Glassfish, Varnish), tuned databases (MySQL) and written application (Ruby, Java) & front end (jQuery, HTML, CSS) code. That said, I'd rather work mostly on application code. I shipped my first Rails application on 2007 (a tiny little app to manage newsletters).
@@ -25,14 +105,9 @@ I work mostly with Ruby but have been known to ship products in jQuery, Java and
 _This site would not have existed if not for [Jekyll][jekyll] and [Open Web Design][owd]. You can find the source of this site on [Github][source]._
 
 [twitter]: http://twitter.com/sengming
-[post]: http://sengming.posterous.com
-[f]: http://www.flickr.com/photos/tansengming/
-[fb]: http://www.facebook.com/sengming
 [jekyll]: http://wiki.github.com/mojombo/jekyll/
-[h]: http://hawkhost.com
 [owd]: http://www.openwebdesign.org
 [source]: http://github.com/tansengming/tansengming.github.com
 [resume]: /resume/
 [linkedin]: http://my.linkedin.com/in/tansengming
-[portfolio]: /portfolio/
 [knorex]: http://knorex.com
