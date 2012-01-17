@@ -7,9 +7,9 @@ pre.prettyprint {
 }
 
 .photos {
-  
+
 }
-  
+
   .photo a, .photo a:hover {
     text-decoration: none;
     background-color: #fff;
@@ -69,8 +69,8 @@ border:none;
 }
 
 a {
-color:#09F;
-/*text-decoration: none;*/
+  color:#09F;
+  text-decoration: none;
 }
 
 a:hover {
