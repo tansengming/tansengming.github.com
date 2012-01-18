@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /resume/index.html
+permalink: resume
 ---
 <style>
 h3 { border-bottom: solid gray 1px; }
