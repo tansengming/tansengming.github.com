@@ -97,7 +97,7 @@ For Freescale Semiconductors I build an application to report and analyze millio
 I am a full stack Rails developer, meaning that I've optimized the servers (Apache, Glassfish, Varnish), tuned databases (MySQL) and written application (Ruby, Java) & front end (jQuery, HTML, CSS) code. That said, I'd rather work mostly on application code. I shipped my first Rails application on 2007 (a tiny little app to manage newsletters).
 
 **What projects have you worked on?**
-I've worked in manufacturing, building a defect reporting & analysis tool. In finance, building stock readers for the bursa feed and tools to manage stock information. I've also worked on Semantic Technologies and data integration while at [Knorex][knorex]. You should check out my [portfolio][portfolio] to get a better idea of what I've worked on.
+I've worked in manufacturing, building a defect reporting & analysis tool. In finance, building stock readers for the bursa feed and tools to manage stock information. I've also worked on Semantic Technologies and data integration while at [Knorex][knorex].
 
 **What languages have you worked with?**
 I work mostly with Ruby but have been known to ship products in jQuery, Java and PHP.
