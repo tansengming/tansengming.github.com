@@ -3,10 +3,15 @@ layout: page
 permalink: /about/index.html
 ---
 **Professionally**
-SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to build web applications and tools for hardware designers. At Intel he worked on processor and chipset design, focusing on design validation for PCI Express and Virtualization Technologies. At Altera he did design verification work on the Nios Embedded Design Suite. He was on the first team that did coverage based testing for RTL designs and later introduced Test Driven Development for hardware designs. Recently he's been working on web applications for yield reporting and analysis. He graduated from Iowa State University.
+SengMing Tan holds B.S. degrees in Computer and Electrical Engineering and has been using that unique perspective to work on web applications, the semantic web and VLSI design.
+
+Just recently he helped build [BilPlz](http://bilplz.com/), [DayDeed](http://daydeed.com) and semantic software for [Knorex]. Earlier on he was at Intel, Altera and Freescale where he worked on chip design, hardware validation and building web applications for yield reporting and analysis.
+
+He graduated from Iowa State University.
+
 He has a [r&eacute;sum&eacute;][resume] and a [Linkedin account][linkedin].
 
-**Contact me**
+**Contact him**
 on tansengming \[at\] gmail dot com or [Twitter][twitter].
 
 ---
@@ -17,7 +22,7 @@ on tansengming \[at\] gmail dot com or [Twitter][twitter].
 <div class='photos lightbox'>
   <div class="first_photo photo">
     <a href="/images/makanpages-index.png" title="Landing page for MakanPages.com">
-      <img src="/images/makanpages-index-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
+      <img src="/images/makanpages-index-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
     </a>
   </div>
   <div class="photo">
@@ -53,7 +58,7 @@ The project involved analyzing hundreds of food blogs to figure out where people
   </div>
   <div class="photo">
     <a href="/images/bizstar-marketwatch.png" title="The Star Business Marketwatch page">
-      <img src="/images/bizstar-marketwatch-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' /> 
+      <img src="/images/bizstar-marketwatch-thumb.png" alt="makan pages index" style='width: 200px; height: 150px' />
     </a>
   </div>
 </div>
