@@ -13,11 +13,6 @@ task :deploy do
   sh 'git push origin master'
 end
 
-task :up do
-  exec 'jekyll --auto --server'
-end
-task :start => :up
-
 desc 'crawls the site to catch broken links'
 task :crawl do
   host = 'http://localhost:4000'
