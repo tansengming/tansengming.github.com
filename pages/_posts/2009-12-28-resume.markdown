@@ -9,9 +9,16 @@ div#contact { white-space: pre;}
 
 ### Summary
 
-I am a software developer who builds data-driven applications, including applications that deal with semantic technologies, yield analysis and hardware validation.
+I am a Rails developer who has built a variety of green field consumer facing apps for startups.
+I tend to work Agile. Meaning that I develop in pairs, write a lot of tests, build on stories, work with short iterations, forecast using yesterday's weather etc.
+
+In the past I've build a few data-driven applications, including applications that deal with semantic technologies, yield analysis and hardware validation.
 
 ### Experience
+
+**Freelancer | Rails Developer** 2011..Present
+
+Since 2011 I've been freelancing as a Rails developer and built [BilPlz](http://bilplz.com) (rocking your finances one receipt at a time), [DayDeed](http://daydeed.com/) (helping friends solve problems) and [Highrise Pro](http://highrisepro.com/) (disrupting property management). I tend to work Agile. Meaning that I develop in pairs, write a lot of tests, build on stories, work with short iterations, forecast using yesterday's weather etc.
 
 **Knorex | Systems Engineer** 2010..2011
 
