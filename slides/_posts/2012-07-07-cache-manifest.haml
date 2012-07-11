@@ -1,0 +1,60 @@
+---
+layout: slide
+---
+/ Sample Source
+/ Gotchas
+/ - only change when manifest file changes
+/ - NOT when files linked on manifest file changes
+/ - goes into application cache
+
+/ Best Practice
+/ - manifest should link to
+/ - usually want NETWORK all. Unless you specially want to block network access. Will break 3rd party links, e.g. google maps
+/ http://developer.apple.com/library/safari/#documentation/iPhone/Conceptual/SafariJSDatabaseGuide/OfflineApplicationCache/OfflineApplicationCache.html
+%section
+  %h1
+    Cache Manifests
+%section
+  %ul
+    %li
+      a great way to improve the cache performance of your web app
+    %li
+      Especially giant single page web apps
+    %li
+      Makes it work offline
+%section
+  %code
+    *.html
+  %pre
+    %code.html
+      &lt;!DOCTYPE HTML&gt;
+      &lt;html manifest="path/cache.manifest"&gt;
+      &lt;body&gt;
+      \...
+  %code
+    path/cache.manifest
+  %pre
+    %code
+      &nbsp;
+      CACHE MANIFEST
+      \# This is a comment.
+      \# Cache manifest version 0.0.1
+      \# If you change the version number in this comment,
+      \# the cache manifest is no longer byte-for-byte identical.
+      demoimages/clownfish.jpg
+      demoimages/clownfishsmall.jpg
+      %br
+      NETWORK:
+      \# All URLs that start with the following lines are whitelisted.
+      http://example.com/examplepath/
+      http://www.example.org/otherexamplepath/
+      %br
+      CACHE:
+      \# Additional items to cache.
+      demoimages/stonessmall.jpg
+      %br
+      FALLBACK:
+      demoimages/currentImg.jpg images/stockImage.jpg
+%section
+  %q
+    When Safari revisits your site, the site is loaded from the cache. If the cache manifest has changed, Safari checks the HTML file that declares the cache, as well as each resource listed in the manifest, to see if any of them has changed.

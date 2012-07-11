@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <meta charset="utf-8">
+  <head>
+    <title>
+      {{page.title}}
+    </title>
+    <link href='/stylesheets/reveal/reset.css' rel='stylesheet' />
+    <link href='/stylesheets/reveal/main.css' rel='stylesheet' />
+    <link href='/stylesheets/reveal/print.css' media='print' rel='stylesheet' type='text/css' />
+    <link href='/stylesheets/highlight/default.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class='reveal'>
+      <div class='slides'>
+        {{content}}
+      </div>
+      <div class='progress'>
+        <span></span>
+      </div>
+      <aside class='controls'>
+        <a class='left' href='#'>
+          &#x25C4;
+        </a>
+        <a class='right' href='#'>
+          &#x25BA;
+        </a>
+        <a class='up' href='#'>
+          &#x25B2;
+        </a>
+        <a class='down' href='#'>
+          &#x25BC;
+        </a>
+      </aside>
+    </div>
+    <script src='/javascripts/classList.js' type='text/javascript'></script>
+    <script src='/javascripts/highlight.pack.js' type='text/javascript'></script>
+    <script src='/javascripts/reveal.min.js' type='text/javascript'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        Reveal.initialize({
+            // Display controls in the bottom right corner
+            controls: true,
+        
+            // Display a presentation progress bar
+            progress: true,
+        
+            // If true; each slide will be pushed to the browser history
+            history: true,
+        
+            // Loops the presentation, defaults to false
+            loop: false,
+        
+            // Flags if mouse wheel navigation should be enabled
+            mouseWheel: true,
+        
+            // Apply a 3D roll to links on hover
+            rollingLinks: true,
+        
+            // UI style
+            theme: 'default', // default/neon
+        
+            // Transition style
+            transition: 'default' // default/cube/page/concave/linear(2d)
+        });
+        hljs.initHighlightingOnLoad();
+      //]]>
+    </script>
+  </body>
+</html>
