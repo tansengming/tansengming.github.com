@@ -110,12 +110,8 @@ I've worked in manufacturing, building a defect reporting & analysis tool. In fi
 **What languages have you worked with?**
 I work mostly with Ruby but have been known to ship products in jQuery, Java and PHP.
 
-_This site would not have existed if not for [Jekyll][jekyll] and [Open Web Design][owd]. You can find the source of this site on [Github][source]._
-
 [twitter]: http://twitter.com/sengming
-[jekyll]: http://wiki.github.com/mojombo/jekyll/
-[owd]: http://www.openwebdesign.org
 [source]: http://github.com/tansengming/tansengming.github.com
 [resume]: /resume/
-[linkedin]: http://my.linkedin.com/in/tansengming
+[linkedin]: http://au.linkedin.com/in/tansengming
 [knorex]: http://knorex.com

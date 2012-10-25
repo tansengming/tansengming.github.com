@@ -13,15 +13,22 @@ layout: slide
 / http://developer.apple.com/library/safari/#documentation/iPhone/Conceptual/SafariJSDatabaseGuide/OfflineApplicationCache/OfflineApplicationCache.html
 %section
   %h1
-    Cache Manifests
+    HTML 5 Cache Manifest
 %section
   %ul
     %li
       a great way to improve the cache performance of your web app
     %li
-      Especially giant single page web apps
+      1 file specified from the
+      %code
+        HTML
+      tag
     %li
-      Makes it work offline
+      Saves to local storage (instead of browser cache)
+    %li
+      Works offline
+    %li
+      Great for single page web apps
 %section
   %code
     *.html
@@ -56,5 +63,9 @@ layout: slide
       FALLBACK:
       demoimages/currentImg.jpg images/stockImage.jpg
 %section
-  %q
-    When Safari revisits your site, the site is loaded from the cache. If the cache manifest has changed, Safari checks the HTML file that declares the cache, as well as each resource listed in the manifest, to see if any of them has changed.
+  %p
+  %ul
+    %li
+      Doesn't matter if files changed
+    %li
+      Doesn't matter if your original HTML file changed

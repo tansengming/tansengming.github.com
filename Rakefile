@@ -3,13 +3,9 @@ require 'bundler/setup'
 require 'rake/clean'
 
 ROOT = Pathname.new(File.dirname(File.expand_path(__FILE__)))
-CLEAN.add ROOT + '_site'
+CLEAN.add (ROOT + '_site').to_s
 
 task :default => :test
-
-task :start do
-  sh 'bundle exec jekyll --server --auto'
-end
 
 task :deploy do
   sh 'git push origin master'
