@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class='span9'>
-  <h2>Table of Contents</h2>
+  <div class='page-header'>
+    <h2>Table of Contents</h2>
+  </div>
   <div>
     <h4>
       On Software and Technology
@@ -10,7 +12,7 @@ layout: default
     {% for post in site.categories.software %}
       <dl>
         <dt><a href="{{post.url}}">{{post.title}}</a></dt>
-        <dd>1</dd>
+        <dd></dd>
       </dl>
     {% endfor %}
     <h4>
@@ -19,7 +21,7 @@ layout: default
     {% for post in site.categories.stories %}
       <dl>
         <dt><a href="{{post.url}}">{{post.title}}</a></dt>
-        <dd>1</dd>
+        <dd></dd>
       </dl>
     {% endfor %}
   </div>

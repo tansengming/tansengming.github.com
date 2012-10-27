@@ -2,18 +2,19 @@
 layout: default
 ---
 <div class='span9 post'>
-  <h2>
-    {{page.title}}
-  </h2>
+  <div class='page-header'>
+    <h2>
+      {{page.title}}
+      <small>
+        {{page.date | date: "%d %B %Y"}}
+      </small>
+    </h2>
+  </div>
   <h4>
-    {{page.date | date: "%d %B %Y"}}
   </h4>
   <div class='content'>
     {{content}}
   </div>
-  <h4>
-    End
-  </h4>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
