@@ -9,6 +9,7 @@ def twice(greeting)
   greeting.call
   greeting.call
 end
+
 twice lambda{ puts 'Hello' }
 ```
 
@@ -19,6 +20,7 @@ def twice
   yield
   yield
 end
+
 twice { puts 'Hello' }
 ```
 
@@ -29,9 +31,10 @@ def twice(&blk)
   blk.call
   blk.call
 end
+
 twice { puts 'Hello' }
 ```
 
 all do the same thing
 
-_Referenced from [Avdi Grimm's Ruby Tapas](www.youtube.com/watch?v=Km9RlUfmvJc&list=WLE130C4CFCC3139DF)_
+_Inspired by [Avdi Grimm's Ruby Tapas](www.youtube.com/watch?v=Km9RlUfmvJc&list=WLE130C4CFCC3139DF)_
