@@ -3,11 +3,10 @@ footer {
   padding-top: 10px;
 }
 
-footer .container {
-  padding-top: 5px;
-  border-top: 1px solid #EEE;
-}
-
+  footer .container {
+    padding-top: 5px;
+    border-top: 1px solid #EEE;
+  }
 
 .profile-picture {
   padding-right: 10px;
