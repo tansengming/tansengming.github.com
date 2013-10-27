@@ -5,9 +5,11 @@ permalink: about
 
 Hi, my name is **SengMing Tan**.
 
-Since 2011 I've been freelancing as a Rails developer and built [BilPlz](http://bilplz.com) (rocking your finances one receipt at a time), [DayDeed](http://daydeed.com/) (helping friends solve problems) and [Highrise Pro](http://highrisepro.com/) (disrupting property management). I tend to work Agile. Meaning that I develop in pairs, write a lot of tests, build on stories, work with short iterations, forecast using yesterday's weather etc.
+I currently work for [Blake eLearning](http://dev.blake.com.au), the people who've brought you [Reading Eggs](http://readingeggs.com) and [Mathseeds](http://mathseeds.com).
 
-Before that I've also worked on [semantic web middleware](http://knorex.com), built web applications for yield reporting & analysis and designed microprocessors for Intel.
+Before that I was freelancing as a Rails developer and built [BilPlz](http://bilplz.com) (rocking your finances one receipt at a time), [DayDeed](http://daydeed.com/) (helping friends solve problems) and [Highrise Pro](http://highrisepro.com/) (disrupting property management). I tend to work Agile. Meaning that I develop in pairs, write a lot of tests, build on stories, work with short iterations, forecast using yesterday's weather etc.
+
+Before that I've worked on [semantic web middleware](http://knorex.com), built web applications for yield reporting & analysis and designed microprocessors for Intel.
 
 I'm looking to work with great developers. Preferably in a product based startup that's Rails and JavaScript heavy.
 
