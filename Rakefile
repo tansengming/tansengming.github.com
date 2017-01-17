@@ -30,5 +30,6 @@ task :crawl do
       raise 'Error! Only found 1 page. Is the server down?' if pages.size == 1
     end
   end
+  puts ">> Looks good you have no broken links! <<"
 end
 task :test => :crawl
