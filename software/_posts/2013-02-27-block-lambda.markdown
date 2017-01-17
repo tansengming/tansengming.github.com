@@ -37,4 +37,4 @@ twice { puts 'Hello' }
 
 all do the same thing
 
-_Inspired by [Avdi Grimm's Ruby Tapas](www.youtube.com/watch?v=Km9RlUfmvJc&list=WLE130C4CFCC3139DF)_
+_Inspired by [Avdi Grimm's Ruby Tapas](http://www.youtube.com/watch?v=Km9RlUfmvJc&list=WLE130C4CFCC3139DF)_
