@@ -13,10 +13,6 @@ task :deploy do
   sh 'git push origin master'
 end
 
-task :serve do
-  sh 'bundle exec jekyll serve --watch'
-end
-
 desc 'crawls the site to catch broken links'
 task :crawl do
   HOST    = 'http://localhost:4000'
