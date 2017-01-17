@@ -44,7 +44,6 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.4.0)
     robotex (1.0.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
@@ -61,9 +60,8 @@ DEPENDENCIES
   haml
   jekyll
   rake
-  redcarpet
   rouge
   sass
 
 BUNDLED WITH
-   1.13.6
+   1.13.7
