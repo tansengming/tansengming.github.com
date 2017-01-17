@@ -1,9 +1,13 @@
 source "http://rubygems.org"
 
-gem 'jekyll'
-gem 'rake'
-gem 'anemone'
 gem 'haml'
-gem 'sass'
-gem 'foreman'
+gem 'jekyll'
+gem 'rouge'
 gem 'redcarpet'
+gem 'sass'
+
+group :development do
+  gem 'anemone'
+  gem 'foreman'
+  gem 'rake'
+end

@@ -2,6 +2,8 @@ require 'rubygems'
 require 'bundler/setup'
 require 'rake/clean'
 
+Bundler.require(:default, :development)
+
 ROOT = Pathname.new(File.dirname(File.expand_path(__FILE__)))
 CLEAN.add (ROOT + '_site').to_s
 
@@ -11,9 +13,13 @@ task :deploy do
   sh 'git push origin master'
 end
 
+task :serve do
+  sh 'bundle exec jekyll serve --watch'
+end
+
 desc 'crawls the site to catch broken links'
 task :crawl do
-  HOST = 'http://localhost:4000'
+  HOST    = 'http://localhost:4000'
   OPTIONS = {:discard_page_bodies => true, :verbose => true}
 
   Anemone.crawl(HOST, OPTIONS) do |anemone|
