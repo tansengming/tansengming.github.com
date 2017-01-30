@@ -1,0 +1,6 @@
+test:
+  override:
+    - bundle exec rake test
+database:
+  override:
+    - echo "Skipping DB section."
