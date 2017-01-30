@@ -12,14 +12,14 @@ GEM
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.17)
-    foreman (0.82.0)
+    foreman (0.83.0)
       thor (~> 0.19.1)
     forwardable-extended (2.6.0)
     haml (4.0.7)
       tilt
     highline (1.7.8)
     httpclient (2.8.3)
-    jekyll (3.3.1)
+    jekyll (3.4.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -57,7 +57,7 @@ GEM
     public_suffix (2.0.5)
     rake (12.0.0)
     rb-fsevent (0.9.8)
-    rb-inotify (0.9.7)
+    rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     robotex (1.0.0)
     rouge (1.11.1)
@@ -65,7 +65,7 @@ GEM
     sass (3.4.23)
     thor (0.19.4)
     thread (0.2.2)
-    tilt (2.0.5)
+    tilt (2.0.6)
 
 PLATFORMS
   ruby
