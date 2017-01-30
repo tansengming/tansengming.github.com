@@ -52,3 +52,11 @@ dl{clear:both;width:100%;overflow:auto;background:#fff url(/images/dot.png) repe
 dt,dd{background:#fff}
 dt{float:left;padding-right:3px}
 dd{margin:0;float:right;}
+
+/* RC Pill */
+.rc-pill {  font-family: 'Open Sans', sans-serif;  border-radius: 4px;  display: inline-block;  position: relative;  overflow: hidden;  white-space: nowrap;  font-size: 11px;  cursor: pointer;}
+.rc-pill strong {  font-weight: bold;}
+.rc-pill a {  color: white;  text-shadow: rgba(1, 1, 1, 0.3) 0.75px 0.75px 0px;}
+.rc-pill div {  display: inline-block;  padding: 2px 5px 2px 5px;}
+.rc-pill .r {  background: #61ae24;  background: -webkit-linear-gradient(#61ae24, #559920);  background: linear-gradient(#61ae24, #559920);}
+.rc-pill i.icon-svg svg {  height: 1em;  margin-right: 0.33em;  margin-bottom: -1px;  display: inline-block;}
