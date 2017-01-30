@@ -28,4 +28,9 @@ task :crawl do
   end
   puts ">> Looks good you have no broken links! <<"
 end
-task :test => :crawl
+
+task :percy do
+   sh 'percy snapshot _site'
+end
+
+task test: :percy
