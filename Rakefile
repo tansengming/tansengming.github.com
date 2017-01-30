@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'rake/clean'
+require 'open-uri'
 
 Bundler.require(:default, :development)
 
@@ -18,6 +19,12 @@ task :crawl do
   HOST    = 'http://localhost:4000'
   OPTIONS = {:discard_page_bodies => true, :verbose => true}
 
+  begin
+    open HOST
+  rescue Errno::ECONNREFUSED
+    sh 'bundle exec jekyll serve --detach'
+  end
+
   Anemone.crawl(HOST, OPTIONS) do |anemone|
     anemone.on_every_page do |page|
       raise '404 Not Found!:' + page.url.path.to_s if page.not_found?
@@ -29,8 +36,12 @@ task :crawl do
   puts ">> Looks good you have no broken links! <<"
 end
 
-task :percy do
+task percy: :build do
    sh 'percy snapshot _site'
 end
 
-task test: :percy
+task :build do
+  sh 'jekyll build'
+end
+
+task test: [:percy, :crawl]
