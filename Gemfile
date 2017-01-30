@@ -8,5 +8,6 @@ gem 'sass'
 group :development do
   gem 'anemone'
   gem 'foreman'
+  gem 'percy-cli'
   gem 'rake'
 end
