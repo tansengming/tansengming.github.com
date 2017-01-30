@@ -1,3 +1,6 @@
 test:
   override:
     - bundle exec jekyll build && bundle exec percy snapshot _site
+database:
+  override:
+    - echo "Skipping DB section."
