@@ -59,4 +59,4 @@ Intel is the world’s largest producer of Microprocessors. I was a chip designe
 
 ### Skills
 
-Rails, jQuery, MongoDB, <nowiki>MySQL</nowiki>
+Rails, jQuery, MongoDB, MySQL
