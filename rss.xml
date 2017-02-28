@@ -1,6 +1,7 @@
 ---
+layout: null
 title: As Simple As Possible
-link: https://tansengming.github.io
+description: The Personal Blog of SengMing Tan
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -9,15 +10,16 @@ link: https://tansengming.github.io
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
   <channel>
-    <title>{{page.title}}</title>
-    <link>{{page.link}}</link>
-    <description>The Personal Blog of SengMing Tan</description>
+    <title>{{ page.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ page.description }}</description>
     {% for post in site.posts %}
       <item>
-        <title>{{post.title}}</title>
-        <link>{{page.link}}{{post.url}}</link>
-        <pubDate>{{post.date | date: "%a, %d %b %Y %H:%M:%S +0800"}}</pubDate>
-        <description><![CDATA[{{post.content}}]]></description>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.url | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+        <description>{{ post.content | xml_escape }}></description>
       </item>
     {% endfor %}
   </channel>
