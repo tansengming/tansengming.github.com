@@ -14,13 +14,15 @@ description: The Personal Blog of SengMing Tan
     <link>{{ site.url }}</link>
     <description>{{ page.description }}</description>
     {% for post in site.posts %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <link>{{ post.url | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-        <description>{{ post.content | xml_escape }}></description>
-      </item>
+      {% unless post.draft %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <link>{{ post.url | prepend: site.url }}</link>
+          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+          <description>{{ post.content | xml_escape }}></description>
+        </item>
+      {% endunless %}
     {% endfor %}
   </channel>
 </rss>
