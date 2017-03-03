@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/sengming
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tansengming.github.io
+  * I am sengming (https://keybase.io/sengming) on keybase.
+  * I have a public key ASC-G2ogHeeBKrtTPbtyJ2tbgv60i6iRlo2mW_ijPCdWnAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120be1b6a201de7812abb533dbb72276b5b82feb48ba891968da65bf8a33c27569c0a",
+            "host": "keybase.io",
+            "kid": "0120be1b6a201de7812abb533dbb72276b5b82feb48ba891968da65bf8a33c27569c0a",
+            "uid": "35f57e507f12525f04161e787169b619",
+            "username": "sengming"
+        },
+        "service": {
+            "hostname": "tansengming.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488559092,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488559045,
+        "hash": "8f7916674e594bcdaa81de9857063a7c6fdabdefe3b21877547b8e1d825e91345bfd18bbac2ad5f022545a0b8c550faf28146f6070a0410faa6c3698814d5fda",
+        "seqno": 936949
+    },
+    "prev": "9b78646ee5f780b72ce1534f1e5d92290516073f4e552c3eae96a233855e86dd",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvhtqIB3ngSq7Uz27cidrW4L+tIuokZaNplv4ozwnVpwKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYmUxYjZhMjAxZGU3ODEyYWJiNTMzZGJiNzIyNzZiNWI4MmZlYjQ4YmE4OTE5NjhkYTY1YmY4YTMzYzI3NTY5YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmUxYjZhMjAxZGU3ODEyYWJiNTMzZGJiNzIyNzZiNWI4MmZlYjQ4YmE4OTE5NjhkYTY1YmY4YTMzYzI3NTY5YzBhIiwidWlkIjoiMzVmNTdlNTA3ZjEyNTI1ZjA0MTYxZTc4NzE2OWI2MTkiLCJ1c2VybmFtZSI6InNlbmdtaW5nIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ0YW5zZW5nbWluZy5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4ODU1OTA5MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg4NTU5MDQ1LCJoYXNoIjoiOGY3OTE2Njc0ZTU5NGJjZGFhODFkZTk4NTcwNjNhN2M2ZmRhYmRlZmUzYjIxODc3NTQ3YjhlMWQ4MjVlOTEzNDViZmQxOGJiYWMyYWQ1ZjAyMjU0NWEwYjhjNTUwZmFmMjgxNDZmNjA3MGEwNDEwZmFhNmMzNjk4ODE0ZDVmZGEiLCJzZXFubyI6OTM2OTQ5fSwicHJldiI6IjliNzg2NDZlZTVmNzgwYjcyY2UxNTM0ZjFlNWQ5MjI5MDUxNjA3M2Y0ZTU1MmMzZWFlOTZhMjMzODU1ZTg2ZGQiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDy+0EZzQn2AsVR7/bvs+TOanlIh50AMF+SP3xBrt1H/lXzknmSh1Xn6hyrZ7g+AKVWYHdRQQDTkLxq9rBefpQHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgSCo/1NGP+Kh0Ls01lM8nt7dQkkYv0Bj9lLVohRbvk0ejdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sengming
+
+==================================================================
+
