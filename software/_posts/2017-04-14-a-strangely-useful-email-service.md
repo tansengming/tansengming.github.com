@@ -20,3 +20,5 @@ They keep a copy of every email we send which is so amazing that I don’t even 
 
 ## Conclusion
 It’s hard to nail down Send With Us with just a few words. I have not even mentioned big features like A/B testing and drip campaigns. Looking at it with a wider lens, Send With Us forced me to create a strict separation between email content and how the email looks like. If a web application is a fragile collection of business logic, you don’t want to risk breaking it because of an email design bug. Which is a fancy way of saying that Marketing can talk to Design instead of me when they want to update their email copy. Which makes me a happy person. Which is probably the best reason to use it.
+
+_Thank you Vaibhav Sagar for reviewing drafts of this post._
