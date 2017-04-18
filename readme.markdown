@@ -6,4 +6,4 @@ It is built on Jekyll and Twitter Bootstrap.
 
 ## Development
 
-Start the local server with `bundle exec jekyll serve`
+Start the local server with `docker-compose up`
