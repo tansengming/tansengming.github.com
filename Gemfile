@@ -10,3 +10,4 @@ group :development do
   gem 'percy-cli'
   gem 'rake'
 end
+gem 'nokogiri', '>= 1.7.1'
