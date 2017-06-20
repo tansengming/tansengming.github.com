@@ -13,7 +13,8 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    haml (4.0.7)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     highline (1.7.8)
     httpclient (2.8.3)
@@ -48,7 +49,7 @@ GEM
       commander (~> 4.3)
       percy-client (~> 1.4)
       thread (~> 0.2)
-    percy-client (1.10.0)
+    percy-client (1.10.1)
       addressable
       faraday (>= 0.9)
       httpclient (>= 2.6)
@@ -61,6 +62,7 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    temple (0.8.0)
     thread (0.2.2)
     tilt (2.0.7)
 
@@ -76,6 +78,7 @@ DEPENDENCIES
   rake
   rouge
   sass
+
 
 BUNDLED WITH
    1.13.7
