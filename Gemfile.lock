@@ -39,10 +39,10 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.2.0)
     multipart-post (2.0.0)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     percy-cli (1.2.7)
@@ -73,7 +73,7 @@ DEPENDENCIES
   anemone
   haml
   jekyll
-  nokogiri (>= 1.7.1)
+  nokogiri (>= 1.7.2)
   percy-cli
   rake
   rouge
