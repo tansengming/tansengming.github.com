@@ -61,7 +61,7 @@ GEM
     robotex (1.0.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.24)
+    sass (3.4.25)
     temple (0.8.0)
     thread (0.2.2)
     tilt (2.0.7)
