@@ -18,7 +18,7 @@ GEM
       tilt
     highline (1.7.8)
     httpclient (2.8.3)
-    jekyll (3.5.0)
+    jekyll (3.5.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
