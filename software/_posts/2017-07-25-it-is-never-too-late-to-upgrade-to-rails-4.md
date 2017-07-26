@@ -2,21 +2,17 @@
 layout: post
 ---
 
-It is never too late to upgrade to Rails 4
-
 <a href='http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails'>
   <img src='/images/rails3-intro.png' alt='Classic Programmer Paintings: Programmers at work maintaining a Ruby on Rails application' class='img-rounded img-responsive' />
 </a>
 
-[Evercondo](http://app.evercondo.com) was upgraded to Rails 4 and we thought we'd celebrate by writing about it. The upgrade started over 2 years ago and we ended up making a big push to finish it over the summer. We mostly did it because Rails 3 stopped receiving security updates. But I like to tell the new developers that we did it so that they don’t have to look at Rails 3 ActiveRecord queries anymore.
+[Evercondo](http://app.evercondo.com) was upgraded to Rails 4 and we thought we would celebrate by writing about it. The upgrade started over 2 years ago and we ended up making a big push to finish it over the summer. We mostly did it because Rails 3 stopped receiving security updates. But I like to tell the new developers that we did it so that they don’t have to look at Rails 3 ActiveRecord queries anymore.
 
 We like the new shiny! Deploys are a lot faster and it's good to know that we're not using outdated software. Our only regrets were that we didn’t upgrade sooner and that we didn’t do much about test coverage before this.
 
-## Prelude
+## Context
 
-A little context: Evercondo is a pretty standard Rails monolith, serving both HTML to browsers and an API for [our mobile app](https://itunes.apple.com/us/app/evercondo-smart-condo-living/id1121372160). We serve hundreds of communities and thousands of users every month. One of the main goals of the upgrade was to minimize downtime and make sure no users could tell the difference while it was happening.
-
-/Work in Progress image TK/
+Evercondo is a pretty standard Rails monolith, serving both HTML to browsers and an API to [a mobile app](https://itunes.apple.com/us/app/evercondo-smart-condo-living/id1121372160). We serve hundreds of communities and thousands of users every month. One of the main goals of the upgrade was to minimize downtime and make sure no users could tell the difference while it was happening.
 
 The good news is that it all worked out well. I count ~5 bugs that made it to users and no downtime for migrations in the 2+ years we were on it. A big reason we were able to do this was because we could deploy upgrades to production in tiny pieces while we were still on Rails 3. The migration basically went like this:
 
@@ -55,3 +51,6 @@ Next time, we’ll try to make sure that any query that joins and merges and run
 last sentence TK
 
 Right decision to do it by incremental upgrades. 
+
+- incremental upgrade
+- lots of tests
