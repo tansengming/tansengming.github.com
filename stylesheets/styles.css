@@ -3,8 +3,8 @@ footer {
   padding-top: 10px;
 }
 
-  footer .container {
-    padding-top: 5px;
+  footer .container .row #footer-info {
+    padding-top: 10px;
     border-top: 1px solid #EEE;
   }
 
