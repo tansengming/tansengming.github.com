@@ -8,7 +8,7 @@ layout: post
 
 [Evercondo](http://app.evercondo.com) was upgraded to Rails 4 and we thought we would celebrate by writing about it. The upgrade started over 2 years ago and we ended up making a big push to finish it over the summer. We mostly did it because Rails 3 stopped receiving security updates. But I like to tell the new developers that we did it so that they don’t have to look at Rails 3 ActiveRecord queries anymore.
 
-We like the new shiny! Deploys are a lot faster and it's good to know that we're not using outdated software. Our only regrets were that we didn’t upgrade sooner and that we didn’t do much about test coverage before this.
+We like the new shiny! Deploys are faster and it's good to know that we are not using outdated software. Our only regrets were that we didn't upgrade sooner and that we didn’t do much about test coverage before this.
 
 ## Context
 
