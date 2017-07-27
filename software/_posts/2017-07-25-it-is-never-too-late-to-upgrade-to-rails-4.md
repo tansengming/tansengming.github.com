@@ -48,14 +48,4 @@ We did not collect test coverage data before and so it was neverx obvious that w
 
 ## Finishing
 
-There is no right way to do a major migration and having a small team, we were pretty happy to go with this long, gentle approach. 
-
-
-Most of the bugs that escaped were Strong Parameter bugs that would have been caught if we had more integration tests. So we're going to do more of that. The other thing we missed was making sure that hairy parts of the codebase were tested. So, more tests.
-
-Despite all that, the upgrade went well! 
-
-The process of building a wall of tests, continuously testing and deploying incremental updates, then monitoring errors and fixing things as they come, worked really well for us. 
-
-Lean on that for development
-Trust your tests, trust your process
+There is no right way to do a major migration and we are glad that we chose to do it the slow, gentle way. It meant less stress and was flexible enough to work with a small team. Making the upgrade also forced us to clean up a lot cruft and helped improve the way we build software. We cannot wait to start with the next one.
