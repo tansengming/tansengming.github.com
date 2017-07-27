@@ -1,19 +1,15 @@
 footer {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-top: 10px;
 }
 
-  footer .container {
-    padding-top: 5px;
+  footer .container .row #footer-info {
+    padding-top: 10px;
     border-top: 1px solid #EEE;
   }
 
 .profile-picture {
   padding-right: 10px;
-}
-
-pre.prettyprint {
-  font-size: small;
 }
 
 .photos {
@@ -39,10 +35,6 @@ pre.prettyprint {
 
 .fn {
 	font-weight: bold;
-}
-
-#disqus_thread {
-  text-align: left;
 }
 
 /*From Mark Pigrim's Dive into HTML5 */

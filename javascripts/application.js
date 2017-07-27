@@ -6,10 +6,6 @@ $(document).ready(function() {
   $('.lightbox a').lightBox();
 });
 
-$(document).ready(function() {
-  prettyPrint();
-});
-
 // <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
 // change the UA-XXXXX-X to be your site's ID -->
 var _gaq = [['_setAccount', 'UA-2279020-6'], ['_trackPageview']];
