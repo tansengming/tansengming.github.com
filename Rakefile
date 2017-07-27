@@ -44,4 +44,4 @@ task :build do
   sh 'jekyll build'
 end
 
-task test: [:percy, :crawl]
+task test: [:percy]#, :crawl]
