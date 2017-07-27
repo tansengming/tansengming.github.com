@@ -13,9 +13,6 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    haml (5.0.1)
-      temple (>= 0.8.0)
-      tilt
     highline (1.7.8)
     httpclient (2.8.3)
     jekyll (3.5.1)
@@ -66,16 +63,13 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    temple (0.8.0)
     thread (0.2.2)
-    tilt (2.0.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   anemone
-  haml
   jekyll
   nokogiri (>= 1.7.2)
   percy-cli

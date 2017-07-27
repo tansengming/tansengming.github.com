@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
-gem 'haml'
 gem 'jekyll'
+gem 'nokogiri', '>= 1.7.2'
 gem 'rouge'
 gem 'sass'
 
@@ -10,4 +10,3 @@ group :development do
   gem 'percy-cli'
   gem 'rake'
 end
-gem 'nokogiri', '>= 1.7.2'
