@@ -8,13 +8,11 @@ layout: post
 
 [Evercondo](http://app.evercondo.com) was upgraded to Rails 4 and we thought we would celebrate by writing about it. The upgrade started over 2 years ago and we ended up making a big push to finish it over the summer. We mostly did it because Rails 3 stopped receiving security updates. But I like to tell the new developers that we did it so that they don’t have to look at Rails 3 ActiveRecord queries anymore.
 
-We like the new shiny! Deploys are faster and it's good to know that we are not using outdated software. Our only regrets were that we didn't upgrade sooner and that we didn’t do much about test coverage before this.
+We like the new shiny! Deploys are a lot faster and it's good to know that we're keeping up with security updates. Our only regrets were that we didn't upgrade sooner and that we didn't pay attention to test coverage before.
 
-## Context
+## Some Background
 
-Evercondo is a pretty standard Rails monolith, serving both HTML to browsers and an API to [a mobile app](https://itunes.apple.com/us/app/evercondo-smart-condo-living/id1121372160). We serve hundreds of communities and thousands of users every month. One of the main goals of the upgrade was to minimize downtime and make sure no users could tell the difference while it was happening.
-
-The good news is that it all worked out well. I count ~5 bugs that made it to users and no downtime for migrations in the 2+ years we were on it. A big reason we were able to do this was because we could deploy upgrades to production in tiny pieces while we were still on Rails 3. The migration basically went like this:
+Evercondo is a pretty standard Rails monolith, serving both HTML to browsers and an API to [a mobile app](https://itunes.apple.com/us/app/evercondo-smart-condo-living/id1121372160). We serve thousands of users every month and the plan was to make sure that none of them would notice the upgrade. I think it went well. We have caught around 5 bugs and have had no downtime for migrations in the 2+ years we were on it. A big reason we were able to do this was because we could deploy upgrades to production in tiny pieces while still on Rails 3. The migration basically went like this:
 
 1. Update all the gems so they work with both Rails 3 and Rails 4 (while still on Rails 3)
 2. Install the ‘strong-params’ gem (while still on Rails 3)
@@ -28,29 +26,36 @@ Having a big set of automated tests were essential to this migration. And while 
 
 ## Devise and Strong Parameters
 
-Updating Devise and migrating all our models and controllers took a lot of time. And that was OK. We would 
+Updating Devise and migrating all our models and controllers took a lot of time. And that was OK. Since these could be done while we were still on Rails 3 we spread out the changes over a long time. We would
 
-- cautiously upgrade Devise to the next minor release, 
-- deploy it and wait to see if anything broke, 
-- then upgrade it to another minor release the next week
+- cautiously upgrade Devise to the next minor release,
+- test the shit out of it on staging,
+- deploy it and wait to see if users found any bugs we missed,
+- then upgrade it to the next minor release a week later
 
-We took the same cautious approach to upgrading to Strong Parameters, doing it one major feature at a time so things don't screw up at the same time. This approach worked out pretty well for us since most of our bugs were Strong Parameters bugs. It really helped that we could do this while still on Rails 3 so all the changes could be spread out.
+We took the same cautious approach to upgrading to Strong Parameters, doing it one major feature at a time. This incremental approach worked out pretty well for us since most of our bugs were caught in this phase. We got to deal with migration bugs spread over 2 years instead of scrambling to fix everything at the same time.
 
 ## ActiveRecord Shenanigans
 
-The next big thing we had to fix were all the changes that happened with ActiveRecord, like changes to the finder, the new integration with hstore, changes to how joins and reference were made etc. ActiveRecord also [broke the way we were using @wireframe’s Multitenant gem](https://github.com/wireframe/multitenant/pull/16). The scary thing about this was that we had to make all these changes on a feature branch and had no easy way to run it on production in increments. It was big bang or bust with the way we accessed data. We were pretty lucky that it turned out as well as it did.
+ActiveRecord 4 came with a bunch of new features and changes. We had to update the finders, the new integration with hstore and change how joins and references were made. ActiveRecord also [broke the way we were using @wireframe’s Multitenant gem](https://github.com/wireframe/multitenant/pull/16). They ended up changing 8% of the codebase and we had no easy way to release it to production in increments. It was big bang or bust and we had our fingers on the revert button in case it all went to hell.
 
-## Conclusion
 
-Most of the bugs that escaped were Strong Parameter bugs that would’ve been caught if we had more integration tests. So we’re definitely going to do more of that. The other big mistake was not paying attention to test coverage. Specifically not taking care to make sure that hairy parts of the codebase were tested. E.g. this was one of the bugs that escaped:
+15 minutes after it went live a user broke the application by visiting a page that eluded 6 years of automated testing. The bug happened to be this fine query,
 
 <img src='/images/rails3-conclusion.png' class='img-responsive' />
 
-Next time, we’ll try to make sure that any query that joins and merges and runs distinct gets tested just in case. 
+We did not collect test coverage data before and so it was neverx obvious that we missed this. Since then we've been leaning on Code Climate to gather coverage data and actually see what our tests are testing with the [their Chrome extension](https://codeclimate.com/browser-extension/).
 
-last sentence TK
+## Finishing
 
-Right decision to do it by incremental upgrades. 
+There is no right way to do a major migration and having a small team, we were pretty happy to go with this long, gentle approach. 
 
-- incremental upgrade
-- lots of tests
+
+Most of the bugs that escaped were Strong Parameter bugs that would have been caught if we had more integration tests. So we're going to do more of that. The other thing we missed was making sure that hairy parts of the codebase were tested. So, more tests.
+
+Despite all that, the upgrade went well! 
+
+The process of building a wall of tests, continuously testing and deploying incremental updates, then monitoring errors and fixing things as they come, worked really well for us. 
+
+Lean on that for development
+Trust your tests, trust your process
