@@ -41,7 +41,7 @@ task percy: :build do
 end
 
 task :build do
-  sh 'jekyll build'
+  sh 'bundle exec jekyll build'
 end
 
 task test: [:percy, :crawl]
