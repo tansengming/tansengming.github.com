@@ -31,7 +31,7 @@ end
 
 Since I know that `def send_sms` is slow, I was willing to complicate things a bit to make it a lot faster. A queue is a great way to split up the main program and the slow parts of the program.
 
-![](/images/enqueue.png)
+<img src='/images/enqueue.png' class='img-responsive img-rounded' />
 
 Each item on the queue is a job to send an SMS. Rich Uncle Pennybags (the main program) can chuck a job into a queue and immediately get back to doing what he was doing. At the same time separate worker processes can pick it up on the other side of the queue to send each SMS. The pattern is common enough that Rails has a framework for it called Active Jobs,
 
