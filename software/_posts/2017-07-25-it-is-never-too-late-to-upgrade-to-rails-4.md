@@ -44,7 +44,7 @@ ActiveRecord 4 came with a bunch of new features and changes. We had to update t
 
 <img src='/images/rails3-conclusion.png' class='img-responsive' />
 
-We did not collect test coverage data before and so it was neverx obvious that we missed this. Since then we've been leaning on Code Climate to gather coverage data and actually see what our tests are testing with the [their Chrome extension](https://codeclimate.com/browser-extension/).
+We did not collect test coverage data before and so it was never obvious that we missed this. Since then we've been leaning on Code Climate to gather coverage data and actually see what our tests are testing with the [their Chrome extension](https://codeclimate.com/browser-extension/).
 
 ## Finishing
 
