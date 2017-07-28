@@ -54,4 +54,4 @@ We did not collect test coverage data before so it was never obvious that we mis
 
 ## Finishing
 
-There is no right way to do a major migration and we are glad we chose the slow, gentle way. It was less stressful. And it was flexible enough to work with a small team that still had features to ship every week. Making the upgrade also forced us to clean up a lot cruft and helped improve the way we build software. We cannot wait to see what the next update will teach us.
+There is no right way to do a major migration and we are glad we chose the slow, gentle way. It was less stressful and was flexible enough to work with a small team that still had features to ship. Making the upgrade also forced us to clean up a lot cruft and helped improve the way we build software. We cannot wait to see what the next update will teach us.
