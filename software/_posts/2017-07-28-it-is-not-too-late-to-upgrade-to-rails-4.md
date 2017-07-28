@@ -1,12 +1,12 @@
 ---
 layout: post
 ---
-
-<a href='http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails'>
+<p class='text-center'>
   <img src='/images/rails3-intro.png' alt='Classic Programmer Paintings: Programmers at work maintaining a Ruby on Rails application' class='img-rounded img-responsive' />
-</a>
-*[Programmers at work maintaining a Ruby on Rails application](http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails)*
-
+  <a  href='http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails'>
+    <em>Programmers at work maintaining a Ruby on Rails application</em>
+  </a>
+</p>
 
 [Evercondo](http://app.evercondo.com) was upgraded to Rails 4 and we thought we would celebrate by writing about it. The upgrade started over 2 years ago and we ended up making a big push to finish it over the summer. We mostly did it because Rails 3 stopped receiving security updates but it's helped us in other ways.
 
