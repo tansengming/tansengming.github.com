@@ -5,6 +5,8 @@ layout: post
 <a href='http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails'>
   <img src='/images/rails3-intro.png' alt='Classic Programmer Paintings: Programmers at work maintaining a Ruby on Rails application' class='img-rounded img-responsive' />
 </a>
+*[Programmers at work maintaining a Ruby on Rails application](http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails)*
+
 
 [Evercondo](http://app.evercondo.com) was upgraded to Rails 4 and we thought we would celebrate by writing about it. The upgrade started over 2 years ago and we ended up making a big push to finish it over the summer. We mostly did it because Rails 3 stopped receiving security updates but it's helped us in other ways.
 
@@ -52,4 +54,4 @@ We did not collect test coverage data before so it was never obvious that we mis
 
 ## Finishing
 
-There is no right way to do a major migration and we are glad that we chose to do it the slow, gentle way. It meant less stress and was flexible enough to work with a small team that still had features to ship every week. Making the upgrade also forced us to clean up a lot cruft and helped improve the way we build software. We cannot wait to start with the next one.
+There is no right way to do a major migration and we are glad we chose the slow, gentle way. It was less stressful. And it was flexible enough to work with a small team that still had features to ship every week. Making the upgrade also forced us to clean up a lot cruft and helped improve the way we build software. We cannot wait to see what the next update will teach us.
