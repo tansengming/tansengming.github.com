@@ -4,7 +4,7 @@ layout: post
 <p class='text-center'>
   <img src='/images/rails3-intro.png' alt='Classic Programmer Paintings: Programmers at work maintaining a Ruby on Rails application' class='img-rounded img-responsive' />
   <a  href='http://classicprogrammerpaintings.com/post/142737403879/programmers-at-work-maintaining-a-ruby-on-rails'>
-    <em>Programmers at work maintaining a Ruby on Rails application</em>
+    <small><u>Programmers at work maintaining a Ruby on Rails application</u></small>
   </a>
 </p>
 
