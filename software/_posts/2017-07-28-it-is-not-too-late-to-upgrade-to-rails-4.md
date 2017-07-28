@@ -32,10 +32,10 @@ Having a big set of automated tests were essential to this migration. And while 
 
 Updating Devise and migrating all our models and controllers took a lot of time. And that was OK. Since these could be done while we were still on Rails 3 we spread out the changes over a long time. We would
 
-- cautiously upgrade Devise to the next minor release,
-- test the shit out of it on staging,
-- deploy it and wait to see if users found any bugs we missed,
-- then upgrade it to the next minor release a week later
+1. cautiously upgrade Devise to the next minor release,
+2. test the shit out of it on staging,
+3. deploy it and wait to see if users found any bugs we missed,
+4. then upgrade it to the next minor release a week later
 
 We took the same cautious approach to upgrading to Strong Parameters, doing it one major feature at a time. This incremental approach worked out pretty well for us since most of our bugs were caught in this phase. We got to deal with migration bugs spread over 2 years instead of scrambling to fix everything at the same time.
 
