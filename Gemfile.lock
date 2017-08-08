@@ -46,7 +46,7 @@ GEM
       commander (~> 4.3)
       percy-client (~> 1.12)
       thread (~> 0.2)
-    percy-client (1.13.2)
+    percy-client (1.13.3)
       addressable
       faraday (>= 0.9)
       httpclient (>= 2.6)
