@@ -3,15 +3,19 @@ layout: page
 permalink: about
 ---
 
-Hi, my name is **SengMing Tan**.
+Hi, my name is **SengMing Tan** and I am [available for contract work](https://sengmingtan.typeform.com/to/iJ6jxW).
 
-I currently work for [Blake eLearning](http://dev.blake.com.au), the people who've brought you [Reading Eggs](http://readingeggs.com) and [Mathseeds](http://mathseeds.com).
+I spent some time at the [Recurse Center](https://www.recurse.com/scout/click?t=ba1ec650f5064a591044b4380733aa8c), a retreat for programmers. If you're into programming you should definitely check it out!
+
+Right before that I spent a few years making a dent in condo management software with [Evercondo](http://www.evercondo.com).
+
+I used to work for [Blake eLearning](http://dev.blake.com.au), the people who've brought you [Reading Eggs](http://readingeggs.com) and [Mathseeds](http://mathseeds.com).
 
 Before that I was freelancing as a Rails developer and built [BilPlz](http://bilplz.com) (rocking your finances one receipt at a time), [DayDeed](http://daydeed.com/) (helping friends solve problems) and [Highrise Pro](http://highrisepro.com/) (disrupting property management). I tend to work Agile. Meaning that I develop in pairs, write a lot of tests, build on stories, work with short iterations, forecast using yesterday's weather etc.
 
 Before that I've worked on [semantic web middleware](http://knorex.com), built web applications for yield reporting & analysis and designed microprocessors for Intel.
 
-I'm looking to work with great developers. Preferably in a product based startup that's Rails and JavaScript heavy.
+I'm looking to delightful software for the Internet. Preferably with small teams that are Rails and JavaScript heavy.
 
 I graduated from Iowa State University.
 
