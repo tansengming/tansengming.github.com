@@ -2,6 +2,13 @@
 layout: post
 ---
 
+<p>
+  <img src='/images/how-not-1.jpg' alt="Michael Heizer's North, East, South, West, 1967/2002 seen at DIA:Beacon." class='img-rounded img-responsive' />
+  <a href='https://au.pinterest.com/pin/287386019952749263/'>
+    <small><em>Michael Heizer's North, East, South, West, 1967/2002 seen at DIA:Beacon.</em></small>
+  </a>
+</p>
+
 I [fixed a Javascript bug](https://github.com/Everapps/stripe-rails/pull/73) and wanted to write a system test for it. Unfortunately I have to run the test on multiple versions of Rails, and system tests only started appearing with newer versions of Rails. Here are a few things I tried to stop it from crashing on Rails 4.
 
 According to the Rails docs you need two files to get started with system tests,
