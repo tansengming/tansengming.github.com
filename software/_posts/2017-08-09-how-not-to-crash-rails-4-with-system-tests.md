@@ -2,7 +2,7 @@
 layout: post
 ---
 
-I [fixed a Javascript bug on a gem](https://github.com/Everapps/stripe-rails/pull/73) and wanted to write a system test for it. Unfortunately the gem's tests run on multiple versions of Rails and system tests only started appearing with Rails 5.1. Here's a few approaches I tried to stop it from crashing on Rails 4.
+I [fixed a Javascript bug](https://github.com/Everapps/stripe-rails/pull/73) and wanted to write a system test for it. Unfortunately I have to run the test on multiple versions of Rails, and system tests only started appearing with newer versions of Rails. Here are a few things I tried to stop it from crashing on Rails 4.
 
 According to the Rails docs you need two files to get started with system tests,
 
@@ -23,7 +23,7 @@ class DummySpec < ApplicationSystemTestCase
 end
 ```
 
-This doesn't work on Rails 4 because it doesn't have `ActionDispatch::SystemTestCase`. An easy way to get around it is by rescuing it,
+While this works fine on Rails 5.1, running the same test on Rails 4 will cause a `NameError` since `ActionDispatch::SystemTestCase` does not exist. An easy way to get around it is by rescuing it,
 
 ```ruby
 # application_system_test_case.rb (nothing changed!)
@@ -42,11 +42,11 @@ begin
     end
   end
 rescue NameError
-  warn 'WARNING: Skipping System test because this version of Rails version does not support it!'
+  warn 'WARNING: Skipping because this version of Rails version does not support it!'
 end
 ```
 
-But this looked terrible. I ended up using a null object,
+But this looked terrible. I ended up using a null class,
 
 ```ruby
 # application_system_test_case.rb (selectively loads the null class)
@@ -61,7 +61,7 @@ class NullSystemTestCase
   def self.driven_by(_, _); end
 
   def self.test(_)
-    warn 'WARNING: Skipping system test because this version of Rails does not support it!'
+    warn 'WARNING: Skipping because this version of Rails does not support it!'
   end
 end
 
@@ -76,4 +76,4 @@ class DummySpec < ApplicationSystemTestCase
 end
 ```
 
-This looks nicer and if I ever wanted to add another system test I won't have to futz around with rescues. Anyways, this is my take on how not to crash my tests when I have newer Rails features. How would you have done it?
+I think this looks nicer! And if I ever wanted to add another system test I won't have to futz around with rescues. Anyways, this is my take on how not to crash my tests when I'm using newer Rails features. How would you have done it?
