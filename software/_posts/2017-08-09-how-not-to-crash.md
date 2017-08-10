@@ -2,9 +2,8 @@
 layout: post
 ---
 
-I [fixed a Javascript bug with the Stripe Rails gem](https://github.com/Everapps/stripe-rails/pull/73) and wanted to write a system test for it. Unfortunately I run tests for the gem on multiple versions of Rails and system tests only started appearing with Rails 5.1. What could I do?
+I [fixed a Javascript bug on a gem](https://github.com/Everapps/stripe-rails/pull/73) and wanted to write a system test for it. Unfortunately the gem's tests run on multiple versions of Rails and system tests only started appearing with Rails 5.1. Here's a few approaches I tried to stop it from crashing on Rails 4.
 
-## Setup
 According to the Rails docs you need two files to get started with system tests,
 
 ```ruby
@@ -24,7 +23,7 @@ class DummySpec < ApplicationSystemTestCase
 end
 ```
 
-When I run this on Rails 4 it would crash because Rails 4 doesn't have `ActionDispatch::SystemTestCase`. An easy way to get around it is by rescuing it,
+This doesn't work on Rails 4 because it doesn't have `ActionDispatch::SystemTestCase`. An easy way to get around it is by rescuing it,
 
 ```ruby
 # application_system_test_case.rb (nothing changed!)
@@ -50,7 +49,7 @@ end
 But this looked terrible. I ended up using a null object,
 
 ```ruby
-# application_system_test_case.rb (loads the null class)
+# application_system_test_case.rb (selectively loads the null class)
 SystemTestCaseKlass = defined?(ActionDispatch::SystemTestCase) ? ActionDispatch::SystemTestCase : NullSystemTestCase
 
 class ApplicationSystemTestCase < SystemTestCaseKlass
@@ -77,4 +76,4 @@ class DummySpec < ApplicationSystemTestCase
 end
 ```
 
-This looks nicer and if I ever wanted to add another system test I won't have to futz around with rescues anymore. Anyways, this is my take on how not to crash my tests when I have newer Rails features. How would you have done it?
+This looks nicer and if I ever wanted to add another system test I won't have to futz around with rescues. Anyways, this is my take on how not to crash my tests when I have newer Rails features. How would you have done it?
