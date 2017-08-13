@@ -15,7 +15,7 @@ GEM
     forwardable-extended (2.6.0)
     highline (1.7.8)
     httpclient (2.8.3)
-    jekyll (3.5.1)
+    jekyll (3.5.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
