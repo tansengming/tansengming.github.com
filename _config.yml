@@ -7,6 +7,7 @@ permalink:   pretty
 exclude: ['readme.markdown', 'Gemfile.lock', 'Gemfile', 'docker-compose.yml', 'circle.yml', 'Rakefile', 'vendor']
 title: As Simple As Possible
 description: SengMing Tan's corner of the Internet
+fb_app_id: 151924031532629
 kramdown:
   input: GFM
   syntax_highlighter: rouge
