@@ -5,6 +5,11 @@ markdown: kramdown
 highlighter: rouge
 permalink:   pretty
 exclude: ['readme.markdown', 'Gemfile.lock', 'Gemfile', 'docker-compose.yml', 'circle.yml', 'Rakefile', 'vendor']
+title: As Simple As Possible
+description: SengMing Tan's corner of the Internet
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
