@@ -1,6 +1,7 @@
 ---
 layout: post
 image: /images/how-not-1.jpg
+description: Details about how to avoid test failures when running Rails specific tests on multiple versions of Rails
 ---
 
 <p>
