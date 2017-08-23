@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /images/how-not-1.jpg
 ---
 
 <p>
