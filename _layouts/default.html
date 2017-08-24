@@ -17,9 +17,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" />
-    <link rel="stylesheet" href="/stylesheets/solarized.css" type="text/css" />
-    <link rel="stylesheet" href="/stylesheets/jquery.lightbox-0.5.css" type="text/css" />
+    <link rel="preload" href="/stylesheets/solarized.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/stylesheets/solarized.css"></noscript>
+    <link rel="preload" href="/stylesheets/jquery.lightbox-0.5.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/stylesheets/jquery.lightbox-0.5.css"></noscript>
+
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+
     {% include og.html %}
     {% include twicard.html %}
     {% include heap.html %}
@@ -59,5 +63,7 @@
     <script type="text/javascript" src="/javascripts/jquery-1.5.1.min.js"></script>
     <script type="text/javascript" src="/javascripts/jquery.lightbox-0.5.min.js"></script>
     <script type="text/javascript" src="/javascripts/application.js"></script>
+    <script type="text/javascript" src="/javascripts/loadcss/loadCSS.js"></script>
+    <script type="text/javascript" src="/javascripts/loadcss/cssrelpreload.js"></script>
   </body>
 </html>
