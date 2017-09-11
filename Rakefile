@@ -36,12 +36,8 @@ task :crawl do
   puts ">> Looks good you have no broken links! <<"
 end
 
-task percy: :build do
-   sh 'percy snapshot _site'
-end
-
 task :build do
   sh 'bundle exec jekyll build'
 end
 
-task test: [:percy, :crawl]
+task test: [:crawl]
