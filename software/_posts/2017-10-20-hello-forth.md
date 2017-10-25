@@ -18,7 +18,7 @@ Here’s a function (called a Word) named `fizz?` which takes a Number off the t
 
 <img src='/images/forth-2.png' class='img-responsive img-rounded' />
 
-It looks a bit funky and the thing to know is that there are only Words and Numbers, and that Words use the top items of the Stack. For example, if you type 1 2 3 the stack will look like this,
+It looks a bit funky and the thing to know is that there are only Words and Numbers, and that Words use the top items of the Stack. For example, if you type `1 2 3` the stack will look like this,
 
 ```
 3 <- Top of the stack
@@ -64,7 +64,7 @@ If the top of the stack is 3, `fizz?` would go like this:
 - duplicates 3 and puts that to the top of the stack
 - run 3 modulo 3 on it, replacing 3 with 0 at the top of the stack
 - compares 0 to 0 and because it is equal, replaces 0 with true (-1) on top
-- Goes on the true path of the if, which prints “Fizz” then leaves -1 to the top of the stack
+- Goes on the true path of the `if`, which prints “Fizz” then leaves -1 to the top of the stack
 
 Extending this to a full implementation of FizzBuzz would look like this,
 
