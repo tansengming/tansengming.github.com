@@ -1,5 +1,7 @@
 ---
 layout: post
+image: /images/forth-1.jpeg
+description: I’ve been doing a little Forth, a tiny and delightful stack based language. It’s a different way to think about programming and surprisingly easy to get into.
 ---
 
 <p class='text-center'>
