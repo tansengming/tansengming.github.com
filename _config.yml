@@ -11,6 +11,8 @@ fb_app_id: 151924031532629
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+feed:
+  path: rss.xml
 plugins:
   - jekyll-feed
   - jekyll-sitemap
