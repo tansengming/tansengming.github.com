@@ -16,7 +16,7 @@ end
 
 desc 'crawls the site to catch broken links'
 task :crawl do
-  HOST    = 'http://localhost:4000'
+  HOST    = 'http://0.0.0.0:4000'
   OPTIONS = {:discard_page_bodies => true, :verbose => true}
 
   begin
