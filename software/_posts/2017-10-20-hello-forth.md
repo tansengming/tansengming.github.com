@@ -4,12 +4,10 @@ image: /images/forth-1.jpeg
 description: I’ve been doing a little Forth, a tiny and delightful stack based language. It’s a different way to think about programming and surprisingly easy to get into.
 ---
 
+{% include post-image.html url=page.image description = "Negative Megalith #5 (Michael Heizer) Photo by Grufnik" credit_url="https://www.flickr.com/photos/grufnik/1410520839/" %}
+
 <p class='text-center'>
-  <img src='/images/forth-1.jpeg' alt='Negative Megalith #5 by Michael Heizer' class='img-rounded img-responsive' />
-  <a  href='https://www.flickr.com/photos/grufnik/1410520839/'>
-    <small><u>Negative Megalith #5 (Michael Heizer) Photo by Grufnik</u></small>
-  </a>
-  <a  href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>
+  <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>
     <small><u>(CC BY-NC-ND 2.0)</u></small>
   </a>
 </p>
