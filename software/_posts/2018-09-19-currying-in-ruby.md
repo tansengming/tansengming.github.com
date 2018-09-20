@@ -1,8 +1,15 @@
 ---
 layout: post
-# image: /images/forth-1.jpeg
+image: /images/curry-1.jpeg
 description: I recently learned how to Curry in Ruby and turns out it’s pretty easy to do.
 ---
+
+<p class='text-center'>
+  <img src='/images/curry-1.jpeg' alt='Negative Megalith #5 by Michael Heizer' class='img-rounded img-responsive' />
+  <a  href='https://www.instagram.com/p/BehWVHyBMdo/'>
+    <small><u>Continuous Line over 4 Tilted Planes by 0°, 30°, 60°, 90° (Francois Morellet) Photo by sirlsirlsirlsirl</u></small>
+  </a>
+</p>
 
 I recently learned how to Curry in Ruby and turns out it’s pretty easy to do. Here is an example to illustrate.
 
