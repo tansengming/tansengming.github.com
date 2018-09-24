@@ -29,17 +29,17 @@ If anything here catches your fancy, feel free to contact me on sengming \[at\] 
 
 <h3>MakanPages (2011)</h3>
 <div class='lightbox row'>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/makanpages-index.png" title="Landing page for MakanPages.com" class='thumbnail'>
       <img src="/images/makanpages-index-thumb.png" alt="makan pages index"/>
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/makanpages-food.png" title="Food Index for MakanPages.com" class='thumbnail'>
       <img src="/images/makanpages-food-thumb.png" alt="makan pages index"/>
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/makanpages-place.png" title="Eating Place Details on MakanPages.com" class='thumbnail'>
       <img src="/images/makanpages-place-thumb.png" alt="makan pages index"/>
     </a>
@@ -51,18 +51,18 @@ The project involved analyzing hundreds of food blogs to figure out where people
 [Link &raquo;](http://makanpages.com/)
 
 <h3>Semantic Widgets for The Star Online (2010)</h3>
-<div class='photos row'>
-  <div class="col-md-4">
+<div class='photos row lightbox'>
+  <div class="col">
     <a href="/images/bizstar-main.png" title="The Star Business Main Page" class='thumbnail'>
       <img src="/images/bizstar-main-thumb.png" alt="makan pages index" />
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/bizstar-article.png" title="The Star Business Article page" class='thumbnail'>
       <img src="/images/bizstar-article-thumb.png" alt="makan pages index" />
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/bizstar-marketwatch.png" title="The Star Business Marketwatch page" class='thumbnail'>
       <img src="/images/bizstar-marketwatch-thumb.png" alt="makan pages index" />
     </a>
@@ -75,18 +75,18 @@ While at Knorex, we built a stock watcher, article discovery tool and other data
 
 <h3>Manufacturing Yield and Machine Analysis (2009)</h3>
 
-<div class='photos lightbox'>
-  <div class="col-md-4">
+<div class='row photos lightbox'>
+  <div class="col">
     <a href="/images/versailles-summary.png" title="Yield summary for different products" class='thumbnail'>
       <img src="/images/versailles-summary-thumb.png" alt="makan pages index" />
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/versailles-overview.png" title="Yield Overview sorted by time and lots" class='thumbnail'>
       <img src="/images/versailles-overview-thumb.png" alt="makan pages index" />
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <a href="/images/versailles-wafer.png" title="Yield summary lumped as wafers" class='thumbnail'>
       <img src="/images/versailles-wafer-thumb.png" alt="makan pages index" />
     </a>

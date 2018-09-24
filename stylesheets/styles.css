@@ -1,21 +1,14 @@
-.page-header {
-  padding-bottom: 0;
-  border-bottom: 0;
-  margin-top: 20px;
-}
-
 footer {
   padding-bottom: 20px;
   padding-top: 10px;
 }
 
-  footer .container .row #footer-info {
+  footer #footer-info {
     padding-top: 10px;
     border-top: 1px solid #EEE;
   }
 
 .photos {
-
 }
 
   .photo a, .photo a:hover {
