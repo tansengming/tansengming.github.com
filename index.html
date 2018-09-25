@@ -1,28 +1,26 @@
 ---
 layout: default
 ---
-<div class="rte col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
-  <div class='page-header'>
-    <h2>Table of Contents</h2>
-  </div>
-  <div>
-    <h4>
-      On Software
-    </h4>
-    {% for post in site.categories.software %}
-      <dl>
-        <dt><a href="{{post.url}}">{{post.title}}</a></dt>
-        <dd></dd>
-      </dl>
-    {% endfor %}
-    <h4>
-      On Travel, Food and Other Stories
-    </h4>
-    {% for post in site.categories.stories %}
-      <dl>
-        <dt><a href="{{post.url}}">{{post.title}}</a></dt>
-        <dd></dd>
-      </dl>
-    {% endfor %}
-  </div>
+<div>
+  <h1>Table of Contents</h1>
+</div>
+<div>
+  <h2>
+    On Software
+  </h2>
+  {% for post in site.categories.software %}
+    <dl>
+      <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+      <dd></dd>
+    </dl>
+  {% endfor %}
+  <h2>
+    On Travel, Food and Other Stories
+  </h2>
+  {% for post in site.categories.stories %}
+    <dl>
+      <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+      <dd></dd>
+    </dl>
+  {% endfor %}
 </div>

@@ -30,23 +30,26 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="rte col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
-          <h1>
-            <a href='/'>As Simple As Possible</a>
-          </h1>
+    <header>
+      <nav class="navbar navbar-light bg-light justify-content-md-center">
+        <a class="navbar-brand" href="/">
+          As Simple As Possible
+        </a>
+      </nav>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
+          {{ content }}
         </div>
-      </div>
-      <div class="row">
-        {{ content }}
       </div>
       <!-- {% include hire.html %} -->
     </div>
     <footer class='footer'>
-      <div class="container">
-        <div class="row">
-          <div class="rte col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0" id='footer-info'>
+      <div class="container-fluid">
+        <div class="row justify-content-md-center">
+          <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0" id='footer-info'>
             <p>
               <span class='fn'>SengMing Tan</span>
               believes in Ruby and usable designs. He is rabid consumer of comic books and pop music.

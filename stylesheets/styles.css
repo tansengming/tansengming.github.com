@@ -1,7 +1,33 @@
-.page-header {
-  padding-bottom: 0;
-  border-bottom: 0;
-  margin-top: 20px;
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.content {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+}
+
+  .content p a {
+    color: #212529;
+    text-decoration: underline;
+  }
+
+  .content p a:hover {
+    color: #212529;
+  }
+
+pre {
+  padding: 9.5px;
+  margin: 0 0 10px;
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+code {
+  color: rgb(88, 110, 117);
 }
 
 footer {
@@ -9,13 +35,12 @@ footer {
   padding-top: 10px;
 }
 
-  footer .container .row #footer-info {
+  footer #footer-info {
     padding-top: 10px;
     border-top: 1px solid #EEE;
   }
 
 .photos {
-
 }
 
   .photo a, .photo a:hover {
@@ -42,10 +67,18 @@ footer {
 /*From Mark Pigrim's Dive into HTML5 */
 /*http://hg.diveintohtml5.org/hgweb.cgi/file/4fafc2e596ed/screen.css*/
 
-dl{clear:both;width:100%;overflow:auto;background:#fff url(/images/dot.png) repeat-x 0 0.8em}
-dt,dd{background:#fff}
-dt{float:left;padding-right:3px}
-dd{margin:0;float:right;}
+dl {clear:both;width:100%;overflow:auto;background:#fff url(/images/dot.png) repeat-x 0 0.8em}
+dt,dd {background:#fff}
+dt { float:left;padding-right:3px }
+  dt a {
+    color: #212529;
+  }
+
+  dt a:hover {
+    color: #212529;
+  }
+
+dd {margin:0;float:right;}
 
 /* RC Pill */
 .rc-pill {  font-family: 'Open Sans', sans-serif;  border-radius: 4px;  display: inline-block;  position: relative;  overflow: hidden;  white-space: nowrap;  font-size: 11px;  cursor: pointer;}
