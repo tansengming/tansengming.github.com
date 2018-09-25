@@ -2,17 +2,17 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-p {
+.content p {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.2rem;
 }
 
-  p a {
+  .content p a {
     color: #212529;
     text-decoration: underline;
   }
 
-  p a:hover {
+  .content p a:hover {
     color: #212529;
   }
 
