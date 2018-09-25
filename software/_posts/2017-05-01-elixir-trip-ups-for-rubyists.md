@@ -5,6 +5,7 @@ layout: post
 I am trying to get back into Elixir after trying it on a while back ago and keep tripping up on the tiniest things. Here’s a list so I’ll remember the next time I do another refresher,
 
 ## Strings are really a sequence of bytes until they aren’t
+
 I keep fucking this up so it goes on top. In Elixir, `'A bunch of bytes'` is not the same as `"A bunch of bytes"`. Single quoting gets you a char list while double quoting returns a string. It’s probably safe to ignore single quotes because [char lists are mostly used to interface with Erlang](http://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html). The worse thing about screwing this up is that it gets you errors that are not very helpful for beginners:
 
 ```elixir
