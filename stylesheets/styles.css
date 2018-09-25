@@ -68,10 +68,18 @@ footer {
 /*From Mark Pigrim's Dive into HTML5 */
 /*http://hg.diveintohtml5.org/hgweb.cgi/file/4fafc2e596ed/screen.css*/
 
-dl{clear:both;width:100%;overflow:auto;background:#fff url(/images/dot.png) repeat-x 0 0.8em}
-dt,dd{background:#fff}
-dt{float:left;padding-right:3px}
-dd{margin:0;float:right;}
+dl {clear:both;width:100%;overflow:auto;background:#fff url(/images/dot.png) repeat-x 0 0.8em}
+dt,dd {background:#fff}
+dt { float:left;padding-right:3px }
+  dt a {
+    color: #212529;
+  }
+
+  dt a:hover {
+    color: #212529;
+  }
+
+dd {margin:0;float:right;}
 
 /* RC Pill */
 .rc-pill {  font-family: 'Open Sans', sans-serif;  border-radius: 4px;  display: inline-block;  position: relative;  overflow: hidden;  white-space: nowrap;  font-size: 11px;  cursor: pointer;}
