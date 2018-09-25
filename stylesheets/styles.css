@@ -2,7 +2,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.content p {
+.content {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.2rem;
 }
