@@ -2,11 +2,11 @@
 layout: post
 ---
 
-I have mistakenly believed that I did not have to worry about thread safety because of Regular Ruby’s Global Interpreter Lock. Unfortunately [the GIL is there to protect the Interpreter, not to save me from my dumb ass code](http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html). This post is based on a true story.
+I used to think that I did not have to worry about thread safety because of Ruby’s Global Interpreter Lock. Unfortunately [the GIL is there to protect the Interpreter, not to save me from my bugs](http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html). This post is based on a bug I found on production.
 
 ## The Setup
 
-Let’s say I needed to send an SMS to everyone in a community. Let’s say every community has prepaid credits and I had to check for credits before sending their SMS. I could start with this,
+Let’s say that I need to send an SMS to everyone in a community and that I have to check for a communty’s available SMS credits before sending the message:
 
 ```ruby
 community.users.each do |recipient|
@@ -29,11 +29,11 @@ end
 
 ## The Queue
 
-Since I know that `def send_sms` is slow, I was willing to complicate things a bit to make it a lot faster. A queue is a great way to split up the main program and the slow parts of the program.
+Since `send_sms` is slow I can speed up the execution of the entire program with a queue. Queuing is a great way to separate the main program from the slow parts of the program.
 
-<img src='/images/enqueue.png' class='img-responsive img-rounded' />
+{% include post-image.html url="/images/enqueue.png" description = "Fig 1: A Marxist take on software queues" %}
 
-Each item on the queue is a job to send an SMS. Rich Uncle Pennybags (the main program) can chuck a job into a queue and immediately get back to doing what he was doing. At the same time separate worker processes can pick it up on the other side of the queue to send each SMS. The pattern is common enough that Rails has a framework for it called Active Jobs,
+Each item on the queue is a job to send an SMS. Rich Uncle Pennybags (the main program) can chuck a job into a queue and immediately get back to doing what he was doing. At the same time separate worker processes can pick it up on the other side of the queue to send each SMS. Rails has a framework for this pattern called Active Jobs that can be used this way,
 
 ```ruby
 commnunity.users.each do |recipient|
@@ -60,9 +60,10 @@ end
 
 ## The Bug
 
-Notice how easy it was to move all that code into the job. There is a bug and the bug is in the details. Active Job let’s you plug in alternative job implementations and my favorite one is called Sidekiq. Sidekiq is fantastic, it’s fast ([and gets faster](http://www.mikeperham.com/2015/11/16/sidekiq-4.0/)), it’s memory efficient, I love it. The only catch is that Sidekiq jobs have to be thread safe. Which Sidekiq Mike warns you about [all](https://github.com/mperham/sidekiq/wiki/Problems-and-Troubleshooting#threading), [the](https://github.com/mperham/sidekiq/wiki/FAQ#how-does-sidekiq-compare-to-resque-or-delayed_job), [time](https://github.com/mperham/sidekiq/wiki/Best-Practices#2-make-your-job-idempotent-and-transactional). Despite that I did not catch the bug until it cost [us](http://evercondo.com/) a little money. You see the code above isn’t thread safe. It is a classic case of the [check-then-set race condition](http://stackoverflow.com/a/34550).
+It was really easy to move all that code into the job but doing so caused a bug. To understand why, note that Active Job let’s you plug in different queue adapters and I used [Sidekiq](https://sidekiq.org/). Sidekiq is [fast](http://www.mikeperham.com/2015/11/16/sidekiq-4.0/), memory efficient and fantastic. However Sidekiq jobs have to be thread safe which they warn you about [all](https://github.com/mperham/sidekiq/wiki/Problems-and-Troubleshooting#threading), [the](https://github.com/mperham/sidekiq/wiki/FAQ#how-does-sidekiq-compare-to-resque-or-delayed_job), [time](https://github.com/mperham/sidekiq/wiki/Best-Practices#2-make-your-job-idempotent-and-transactional). The way the job was written above was a classic case of the [check-then-set race condition](http://stackoverflow.com/a/34550) which meant that it wasn’t thread safe.
 
-In other words, the job code you saw as above (and so below) is terrible code that you should never run multithreadedly,
+Looking again at `SmsSenderJob`,
+
 
 ```ruby
 class SmsSenderJob < ApplicationJob
@@ -80,7 +81,7 @@ class SmsSenderJob < ApplicationJob
 end
 ```
 
-Suppose the community started with 100 credits, plenty of users and I ran the jobs with Sidekiq’s default 25 workers. The code might deduct multiple credits. Or it might deduct 1. There is no way of determining how many credits I was going to end up with because Ruby interleaves the code when multiple threads are involved. The trouble was assuming that all the lines in a job would get run in a block. This is how I thought it would run,
+Suppose the community started with 100 credits, had plenty of users and ran with more than one worker. The code might deduct multiple credits. Or it might deduct 1. There is no way of determining how many credits it was going to end up with because Ruby interleaves the code when multiple threads are used. My mistake was assuming that every line in a job would run in a block. This is how I thought it would run,
 
 ```ruby
 # Job 1
@@ -104,7 +105,7 @@ end
                       end
 ```
 
-when really it was just as likely to run like this,
+when it was just as likely to run this way,
 
 ```ruby
 # Job 1
@@ -157,12 +158,10 @@ end
 
 ## The Hard Solution
 
-But that only works if I can guarantee that the main program never gets run more than once at the same time. If I had to run the same code on multiple processes, e.g. in multiple Unicorn instances on a web app, I would still be screwed. Check-then-set race conditions don’t just happen with threads, it happens whenever there is shared mutable state (`community.sms_credits` ). All I’ve done is move the problem to another level. Sure there’s less of a chance that it’ll happen at this level but it’s still enough of a chance that it’s worth fixing. One day.  The correct solution will probably involve some form of locking or journaling. Which would be fun to write about once I’ve fixed it.
+But that only works if the main program is not running more than once at the same time. If I run the code on multiple processes, e.g. in multiple Unicorn instances on a web app, there might still be issues. Check-then-set race conditions don’t just happen with threads, they happen whenever there is shared mutable state, i.e. `community.sms_credits`. There’s less of a chance that it will happen at this level but it’s still worth fixing. The correct solution will probably involve some form of locking or journaling. Which would be fun to write about once it’s fixed.
 
 ## Conclusion
 
-All I wanted to do was make things a run little faster and didn’t realize that I had dropped into a pit filled with ten dollar words like Concurrency and Thread Safety. Do I regret anything? No! Will I screw this up again later? Maybe!
-
-Fin.
+Coding for thread safety is hard. I hope this post helps you reason about the most common mistake when trying to write multithreaded programs.
 
 _I would love you thank Moritz Neeb and Kamal Marhubi for reviewing earlier drafts of this._
