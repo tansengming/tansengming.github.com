@@ -52,4 +52,4 @@ It is great to see how easy it is to do in Ruby. Yet I don’t think it will aff
 
 PS: this post was insprired from reading [Benjamin Tan’s Mastering Ruby Closures](https://pragprog.com/book/btrubyclo/mastering-ruby-closures), which I highly recommend.
 
-PPS: [Here’s an explanation](https://medium.com/@sengming/designing-my-name-8b2da47bb827) of why my name is strangely formatted.
+PPS: [Here’s an explanation]({% post_url 2017-02-07-designing-my-name %}) of why my name is strangely formatted.
