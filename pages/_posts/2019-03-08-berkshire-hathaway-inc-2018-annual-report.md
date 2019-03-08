@@ -1,11 +1,11 @@
 ---
 layout: post
-permalink: memory
+permalink: berkshire-2018
 ---
  
 TABLE OF CONTENTS
-Berkshire’sPerformancevs.theS&P500 .................................................... 2
-Chairman’sLetter* ...................................................................... 3-15
+Berkshire’s Performance vs. the S&P500 .................................................... 2
+Chairman’s Letter* ...................................................................... 3-15
 Form 10-K –
 BusinessDescription ............................................................... K-1
 RiskFactors ...................................................................... K-22 DescriptionofProperties ............................................................ K-25 SelectedFinancialData ............................................................. K-31 Management’sDiscussion ........................................................... K-32 Management’sReportonInternalControls .............................................. K-61 IndependentAuditor’sReport ........................................................ K-62 ConsolidatedFinancialStatements .................................................... K-64 NotestoConsolidatedFinancialStatements ............................................. K-69
